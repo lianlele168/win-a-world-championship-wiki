@@ -1,0 +1,34 @@
+[
+  {
+    "id": "first-core",
+    "name": "First Core Pack Cycle",
+    "stage": "Beginner",
+    "goal": "Find one scoring outlet and one midfield connector before spending rerolls aggressively.",
+    "coinRule": "Use codes first, then open only enough packs to replace clear D-tier fillers.",
+    "risk": "Overspending early leaves no coins for the next update or pack cost jump."
+  },
+  {
+    "id": "weakest-line",
+    "name": "Weakest Line Upgrade",
+    "stage": "Mid Game",
+    "goal": "Pick the line with the lowest real match impact: attack, midfield, defense, or keeper.",
+    "coinRule": "Spend pack coins only when the new card can solve that line; otherwise save rerolls.",
+    "risk": "Chasing a famous card while ignoring your weakest line creates unbalanced teams."
+  },
+  {
+    "id": "nation-year",
+    "name": "Nation and Year Alignment",
+    "stage": "Tournament Push",
+    "goal": "Use team and year rerolls to improve fit after your main card roles are stable.",
+    "coinRule": "Do not burn year rerolls on filler cards; spend them on S/A-tier keepers.",
+    "risk": "Perfect synergy on weak cards is worse than strong cards with acceptable fit."
+  },
+  {
+    "id": "finals-bankroll",
+    "name": "Finals Bankroll",
+    "stage": "Late Game",
+    "goal": "Enter tough cups with enough rerolls left to fix one unlucky draft slot.",
+    "coinRule": "Keep a small reserve rather than spending every code reward immediately.",
+    "risk": "A zero-reserve squad can get stuck with a bad year or nation before finals."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "elite-finisher",
+    "name": "Elite Finisher",
+    "slug": "elite-finisher",
+    "tier": "S",
+    "role": "Forward",
+    "priority": 98,
+    "bestFor": ["Knockout rounds", "Low-chance games", "Comeback wins"],
+    "description": "A high-impact scoring card should be your first keep when your squad already has a stable midfield.",
+    "signals": ["Strong attacking traits", "Reliable finishing", "Works in 4-3-3 and 4-2-3-1"],
+    "rerollAdvice": "Keep unless your defense is collapsing or you already have multiple top scorers."
+  },
+  {
+    "id": "control-midfielder",
+    "name": "Control Midfielder",
+    "slug": "control-midfielder",
+    "tier": "S",
+    "role": "Midfield",
+    "priority": 95,
+    "bestFor": ["Balanced squads", "Long tournaments", "Nation-year synergy"],
+    "description": "The safest core card type because it improves possession, build-up, and stability across different nations.",
+    "signals": ["Playmaking traits", "High stamina", "Fits multiple formations"],
+    "rerollAdvice": "Keep early. Midfield control makes weaker attack and defense cards easier to carry."
+  },
+  {
+    "id": "anchor-defender",
+    "name": "Anchor Defender",
+    "slug": "anchor-defender",
+    "tier": "A",
+    "role": "Defense",
+    "priority": 88,
+    "bestFor": ["Close finals", "Underdog squads", "Low coin budgets"],
+    "description": "A reliable center back or defensive anchor is usually worth keeping before chasing luxury attackers.",
+    "signals": ["Strong defense traits", "Good height or physical profile", "Pairs with defensive midfielders"],
+    "rerollAdvice": "Keep when your attack already scores, reroll if you still cannot create chances."
+  },
+  {
+    "id": "pace-winger",
+    "name": "Pace Winger",
+    "slug": "pace-winger",
+    "tier": "A",
+    "role": "Wide Attack",
+    "priority": 84,
+    "bestFor": ["Fast transitions", "4-3-3", "Breaking low blocks"],
+    "description": "Wide speed gives cheaper squads a way to steal wins before they can afford perfect central cards.",
+    "signals": ["Pace traits", "Crossing or dribbling", "Good pairing with elite finishers"],
+    "rerollAdvice": "Keep if your striker is strong; reroll if both striker and midfield are weak."
+  },
+  {
+    "id": "sweeper-keeper",
+    "name": "Sweeper Keeper",
+    "slug": "sweeper-keeper",
+    "tier": "B",
+    "role": "Goalkeeper",
+    "priority": 76,
+    "bestFor": ["Defensive formations", "Finals protection", "High-pressure games"],
+    "description": "A strong keeper matters, but goalkeeper upgrades rarely fix a squad with poor chance creation.",
+    "signals": ["Shot-stopping traits", "Composure", "Late-game stability"],
+    "rerollAdvice": "Upgrade after your midfield and one scoring outlet are already solved."
+  },
+  {
+    "id": "utility-fullback",
+    "name": "Utility Fullback",
+    "slug": "utility-fullback",
+    "tier": "B",
+    "role": "Defense / Wide",
+    "priority": 70,
+    "bestFor": ["Budget squads", "Formation flexibility", "Chemistry filler"],
+    "description": "Useful for filling nation/year links, but usually not the card type that wins tournaments alone.",
+    "signals": ["Stamina", "Balanced traits", "Can cover wide lanes"],
+    "rerollAdvice": "Keep as a connector only when it improves your squad shape."
+  },
+  {
+    "id": "single-stat-specialist",
+    "name": "Single-Stat Specialist",
+    "slug": "single-stat-specialist",
+    "tier": "C",
+    "role": "Flexible",
+    "priority": 55,
+    "bestFor": ["Early tutorial", "Temporary upgrades", "Cheap nation links"],
+    "description": "Playable when you are new, but it should become reroll fuel once codes give you enough resources.",
+    "signals": ["One obvious strength", "Weak secondary traits", "Limited formation fit"],
+    "rerollAdvice": "Replace once you have spare team rerolls or pack coins."
+  },
+  {
+    "id": "duplicate-filler",
+    "name": "Duplicate Filler",
+    "slug": "duplicate-filler",
+    "tier": "D",
+    "role": "Bench",
+    "priority": 35,
+    "bestFor": ["Temporary bench depth"],
+    "description": "Duplicates or low-fit cards should be the first cards you rotate out during a serious tournament push.",
+    "signals": ["Poor fit", "Low impact role", "Does not improve weakest line"],
+    "rerollAdvice": "Reroll before entering a final or when you can afford a fresh pack cycle."
+  }
+]

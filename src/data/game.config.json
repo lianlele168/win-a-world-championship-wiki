@@ -1,0 +1,76 @@
+{
+  "game": {
+    "name": "Win A World Championship",
+    "slug": "win-a-world-championship",
+    "robloxId": "117180001724009",
+    "universeId": "10435170241",
+    "developer": "Black Barn Studios",
+    "genre": "Sports & Racing / Sports",
+    "currentVersion": "[UPD]",
+    "created": "2026-07-02",
+    "lastUpdated": "2026-08-23",
+    "robloxUrl": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  },
+  "stats": {
+    "visits": "6.34M+",
+    "favorites": "25.6K+",
+    "onlineNow": "1.9K+",
+    "maxPlayers": "25",
+    "rating": "88%"
+  },
+  "seo": {
+    "siteTitle": "Win A World Championship Wiki - Codes, Calculator & Best Team 2026",
+    "siteDescription": "Unofficial Win A World Championship wiki for Roblox. Track working codes, plan rerolls, compare card archetypes, and build a stronger football nation.",
+    "baseUrl": "https://winaworldchampionship.robloxwikihub.com",
+    "primaryKeywords": [
+      "Win A World Championship",
+      "Win A World Championship wiki",
+      "Win A World Championship codes",
+      "Win A World Championship Roblox"
+    ],
+    "secondaryKeywords": [
+      "Win A World Championship calculator",
+      "Win A World Championship best team",
+      "Win A World Championship tier list",
+      "Win A World Championship reroll guide",
+      "Win A World Championship packs"
+    ]
+  },
+  "sources": [
+    {
+      "name": "Roblox API",
+      "url": "https://games.roblox.com/v1/games?universeIds=10435170241"
+    },
+    {
+      "name": "Rolimon's game tracker",
+      "url": "https://www.rolimons.com/game/117180001724009"
+    },
+    {
+      "name": "Beebom codes page",
+      "url": "https://beebom.com/win-a-world-championship-codes/"
+    },
+    {
+      "name": "Pocket Tactics codes page",
+      "url": "https://www.pockettactics.com/win-a-world-championship-codes"
+    },
+    {
+      "name": "Destructoid codes page",
+      "url": "https://www.destructoid.com/win-a-world-championship-codes/"
+    }
+  ],
+  "routes": [
+    { "path": "/", "title": "Win A World Championship Wiki", "priority": "1.0" },
+    { "path": "/codes", "title": "Win A World Championship Codes", "priority": "0.95" },
+    { "path": "/calculator", "title": "Win A World Championship Calculator", "priority": "0.95" },
+    { "path": "/tier-list", "title": "Win A World Championship Tier List", "priority": "0.9" },
+    { "path": "/best-team", "title": "Win A World Championship Best Team", "priority": "0.85" },
+    { "path": "/beginner-guide", "title": "Win A World Championship Beginner Guide", "priority": "0.85" },
+    { "path": "/packs-guide", "title": "Win A World Championship Packs Guide", "priority": "0.8" },
+    { "path": "/reroll-guide", "title": "Win A World Championship Reroll Guide", "priority": "0.8" },
+    { "path": "/formations", "title": "Win A World Championship Formations", "priority": "0.8" },
+    { "path": "/updates", "title": "Win A World Championship Updates", "priority": "0.75" },
+    { "path": "/about", "title": "About", "priority": "0.3" },
+    { "path": "/terms", "title": "Terms", "priority": "0.25" },
+    { "path": "/privacy-policy", "title": "Privacy Policy", "priority": "0.2" }
+  ]
+}
