@@ -1,62 +1,75 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ExternalLink, ShieldCheck, Trophy } from "lucide-react";
-import config from "@/data/game.config.json";
+import { ShieldCheck, Mail, ExternalLink, ArrowLeft, Gamepad2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Win A World Championship Wiki",
-  description:
-    "About this unofficial Win A World Championship Roblox wiki, including data sources, update approach, and disclaimer.",
-  alternates: { canonical: "/about/" },
+  title: "About Win A World Championship Wiki & Network Standards",
+  description: "Learn about the Win A World Championship fan wiki, our editorial testing process, and the Roblox Wiki Hub network.",
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function AboutPage() {
   return (
-    <main className="page-shell py-10">
-      <section className="max-w-4xl">
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-emerald-300/40 bg-emerald-500/10 px-4 py-1.5 text-xs font-black uppercase tracking-wide text-emerald-100">
-          <Trophy className="h-4 w-4 text-amber-300" />
-          Unofficial fan site
+    <main className="min-h-[75vh] py-12 px-4 sm:px-6 max-w-4xl mx-auto space-y-8">
+      <div>
+        <Link href="/" className="inline-flex items-center gap-2 text-xs font-bold text-slate-400 hover:text-white transition-colors mb-4">
+          <ArrowLeft className="w-3.5 h-3.5" />
+          <span>Back to Home</span>
+        </Link>
+        <div className="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3 py-1 font-mono text-xs font-bold text-indigo-300 mb-2">
+          <ShieldCheck className="w-3.5 h-3.5 text-indigo-400" />
+          <span>ROBLOX WIKI HUB NETWORK</span>
         </div>
-        <h1 className="text-4xl font-black tracking-tight text-white sm:text-5xl">
-          About This Wiki
+        <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          About Win A World Championship Wiki
         </h1>
-        <p className="mt-4 text-base leading-7 text-slate-300">
-          This is an independent, fan-made companion site for {config.game.name} on Roblox. It focuses on practical tools: working codes, reroll budget planning, card-role tiering, and beginner-friendly squad decisions.
+        <p className="text-sm text-slate-300 mt-2 leading-relaxed">
+          Independent player guide, probability calculators, and working redeem codes for Win A World Championship.
         </p>
-      </section>
+      </div>
 
-      <section className="mt-10 grid gap-5 md:grid-cols-3">
-        <div className="surface p-5">
-          <h2 className="mb-2 font-black text-white">What we track</h2>
-          <p className="text-sm leading-6 text-slate-400">Public Roblox API fields, current game description codes, public source conflicts, and guide notes that can be updated quickly.</p>
+      <div className="rounded-2xl border border-slate-800 bg-[#0c101c] p-6 sm:p-8 space-y-6">
+        <div className="space-y-3">
+          <h2 className="text-lg font-bold text-white flex items-center gap-2">
+            <Gamepad2 className="w-5 h-5 text-indigo-400" />
+            <span>Our Mission & Editorial Operation</span>
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            This wiki is an independent community project operated under the <strong>Roblox Wiki Hub</strong> network. We provide players with transparent drop odds, client-side tools, and manually tested redeem codes without requiring logins or account passwords.
+          </p>
         </div>
-        <div className="surface p-5">
-          <h2 className="mb-2 font-black text-white">What we avoid</h2>
-          <p className="text-sm leading-6 text-slate-400">We do not invent hidden player stats, fake pack odds, or pretend uncertain codes are verified.</p>
-        </div>
-        <div className="surface p-5">
-          <h2 className="mb-2 font-black text-white">Game owner</h2>
-          <p className="text-sm leading-6 text-slate-400">{config.game.name} is by {config.game.developer}. This site is not affiliated with or endorsed by the developer or Roblox.</p>
-        </div>
-      </section>
 
-      <section className="mt-10 surface p-6">
-        <h2 className="mb-4 flex items-center gap-2 text-2xl font-black text-white">
-          <ShieldCheck className="h-6 w-6 text-emerald-300" />
-          Source transparency
-        </h2>
-        <p className="mb-5 text-sm leading-7 text-slate-300">
-          Code pages for fast-moving Roblox games change often. This wiki stores source names on each code entry and keeps conflicting older codes in a separate needs-check state.
-        </p>
-        <div className="flex flex-wrap gap-3">
-          <Link href="/updates" className="btn-primary">View update sources</Link>
-          <a href={config.game.robloxUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary">
-            Open Roblox page
-            <ExternalLink className="h-4 w-4 text-amber-300" />
+        <div className="rounded-xl border border-indigo-500/30 bg-indigo-950/30 p-5 space-y-3">
+          <p className="text-xs font-bold uppercase tracking-wider text-indigo-300">Central Publisher & Editorial Standards</p>
+          <p className="text-xs text-slate-300 leading-relaxed">
+            All code testing protocols, simulator calibration, and COPPA child safety commitments for this wiki are managed centrally under our network publisher guidelines:
+          </p>
+          <a
+            href="https://robloxwikihub.com/about"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-xs font-bold text-indigo-400 hover:text-indigo-300 underline"
+          >
+            <span>Review Full Editorial Testing Standards & COPPA Pledge</span>
+            <ExternalLink className="w-3.5 h-3.5" />
           </a>
         </div>
-      </section>
+
+        <div className="border-t border-slate-800/80 pt-5 space-y-2">
+          <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Direct Editorial Contact</h3>
+          <p className="text-xs text-slate-300 leading-relaxed">
+            For fact corrections, ninja-patch updates, or data privacy requests, contact Lead Webmaster <strong>lianlele168</strong> directly:
+          </p>
+          <div className="inline-flex items-center gap-2 rounded-lg border border-emerald-500/30 bg-emerald-950/40 px-3 py-1.5 font-mono text-xs font-bold text-emerald-300">
+            <Mail className="w-3.5 h-3.5" />
+            <span>lianlele168@gmail.com</span>
+          </div>
+          <p className="text-[11px] text-slate-500">Inquiries are acknowledged within 48 business hours.</p>
+        </div>
+      </div>
     </main>
   );
 }

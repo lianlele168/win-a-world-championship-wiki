@@ -59,16 +59,55 @@
     }
   ],
   "routes": [
-    { "path": "/", "title": "Win A World Championship Wiki", "priority": "1.0" },
-    { "path": "/codes", "title": "Win A World Championship Codes", "priority": "0.95" },
-    { "path": "/calculator", "title": "Win A World Championship Calculator", "priority": "0.95" },
-    { "path": "/tier-list", "title": "Win A World Championship Tier List", "priority": "0.9" },
-    { "path": "/best-team", "title": "Win A World Championship Best Team", "priority": "0.85" },
-    { "path": "/beginner-guide", "title": "Win A World Championship Beginner Guide", "priority": "0.85" },
-    { "path": "/packs-guide", "title": "Win A World Championship Packs Guide", "priority": "0.8" },
-    { "path": "/reroll-guide", "title": "Win A World Championship Reroll Guide", "priority": "0.8" },
-    { "path": "/formations", "title": "Win A World Championship Formations", "priority": "0.8" },
-    { "path": "/updates", "title": "Win A World Championship Updates", "priority": "0.75" },
-    { "path": "/about", "title": "About", "priority": "0.3" }
+    {
+      "path": "/",
+      "title": "Win A World Championship Wiki",
+      "priority": "1.0"
+    },
+    {
+      "path": "/codes",
+      "title": "Win A World Championship Codes",
+      "priority": "0.95"
+    },
+    {
+      "path": "/calculator",
+      "title": "Win A World Championship Calculator",
+      "priority": "0.95"
+    },
+    {
+      "path": "/tier-list",
+      "title": "Win A World Championship Tier List",
+      "priority": "0.9"
+    },
+    {
+      "path": "/best-team",
+      "title": "Win A World Championship Best Team",
+      "priority": "0.85"
+    },
+    {
+      "path": "/beginner-guide",
+      "title": "Win A World Championship Beginner Guide",
+      "priority": "0.85"
+    },
+    {
+      "path": "/packs-guide",
+      "title": "Win A World Championship Packs Guide",
+      "priority": "0.8"
+    },
+    {
+      "path": "/reroll-guide",
+      "title": "Win A World Championship Reroll Guide",
+      "priority": "0.8"
+    },
+    {
+      "path": "/formations",
+      "title": "Win A World Championship Formations",
+      "priority": "0.8"
+    },
+    {
+      "path": "/updates",
+      "title": "Win A World Championship Updates",
+      "priority": "0.75"
+    }
   ]
 }
