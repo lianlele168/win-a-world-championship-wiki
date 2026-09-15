@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
+import AuthorCard from "@/components/AuthorCard";
 import {
   ArrowRight,
   Calculator,
@@ -169,6 +171,40 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* E-E-A-T AUTHOR VERIFICATION */}
+      <div className="page-shell pt-8">
+        <AuthorCard />
+
+        {/* VISUAL GAMEPLAY SHOWCASE */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+          <div className="rounded-2xl overflow-hidden border border-amber-900/60 bg-amber-950/40 p-4">
+            <Image
+              src="/images/championship-header.webp"
+              alt="Win a World Championship Official Game Icon"
+              width={512}
+              height={512}
+              className="rounded-xl object-cover w-full h-56 border border-amber-800/40"
+              priority
+            />
+            <p className="text-xs text-amber-300 mt-2.5 text-center font-medium">
+              Figure 1: Official Win a World Championship Game Icon by Black Barn Studios.
+            </p>
+          </div>
+          <div className="rounded-2xl overflow-hidden border border-amber-900/60 bg-amber-950/40 p-4">
+            <Image
+              src="/images/championship-gameplay.webp"
+              alt="Win a World Championship Tournament Match"
+              width={768}
+              height={432}
+              className="rounded-xl object-cover w-full h-56 border border-amber-800/40"
+            />
+            <p className="text-xs text-amber-300 mt-2.5 text-center font-medium">
+              Figure 2: Active World Cup Tournament Arena & Squad Draft Pitch.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <section className="page-shell py-14">
         <div className="grid gap-5 lg:grid-cols-3">
