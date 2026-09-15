@@ -11,10 +11,9 @@ export default function AuthorCard() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="font-bold text-white text-sm sm:text-base">CoachTactician_Leo</span>
+              <span className="font-bold text-white text-sm sm:text-base">Roblox Wiki Hub Research Desk</span>
               <span className="inline-flex items-center gap-1 text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full">
-                <ShieldCheck className="w-3 h-3" /> World Champ Winner
-              </span>
+                <ShieldCheck className="w-3 h-3" /> Verified by lianlele168</span>
             </div>
             <p className="text-xs text-amber-300">
               Win a World Championship Global Tournament Analyst • 15x Gold Trophy Champion
@@ -36,7 +35,7 @@ export default function AuthorCard() {
 
       <p className="text-xs text-amber-400/80 mt-3 pt-3 border-t border-amber-900/40 leading-relaxed">
         <strong>Review Methodology:</strong> Player card overall ratings, formation synergy multipliers, and pack pull drop percentages were calculated through 500+ match simulations and live tournament brackets.
-      </p>
+       Follows <a href="https://robloxwikihub.com/about#methodology" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Editorial Standards</a>. Report corrections to <a href="mailto:lianlele168@gmail.com" className="underline hover:text-white">lianlele168@gmail.com</a>.</p>
     </div>
   );
 }

@@ -129,10 +129,10 @@ export default function PrivacyPolicyPage() {
               For any privacy inquiries, content correction requests, or data protection questions, you can reach our editorial team directly at:
             </p>
             <div className="inline-block rounded-xl border border-emerald-500/30 bg-emerald-950/40 p-3 font-mono text-sm font-bold text-emerald-300">
-              contact@robloxwikihub.com
+              lianlele168@gmail.com
             </div>
             <p className="text-xs text-slate-400">
-              Inquiries are acknowledged and addressed within 48 business hours.
+              Published under the <a href="https://robloxwikihub.com/about" target="_blank" rel="noopener noreferrer" className="text-emerald-400 underline hover:text-emerald-300">Roblox Wiki Hub Editorial Standards</a>. Inquiries are acknowledged and addressed within 48 business hours by Lead Webmaster lianlele168.
             </p>
           </section>
         </div>
