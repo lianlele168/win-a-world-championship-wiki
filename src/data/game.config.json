@@ -69,8 +69,6 @@
     { "path": "/reroll-guide", "title": "Win A World Championship Reroll Guide", "priority": "0.8" },
     { "path": "/formations", "title": "Win A World Championship Formations", "priority": "0.8" },
     { "path": "/updates", "title": "Win A World Championship Updates", "priority": "0.75" },
-    { "path": "/about", "title": "About", "priority": "0.3" },
-    { "path": "/terms", "title": "Terms", "priority": "0.25" },
-    { "path": "/privacy-policy", "title": "Privacy Policy", "priority": "0.2" }
+    { "path": "/about", "title": "About", "priority": "0.3" }
   ]
 }
