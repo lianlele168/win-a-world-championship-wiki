@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Win A World Championship Packs Guide - Coin Spending Strategy",
   description:
     "Learn when to open packs, save Coins, and use code rewards in Win A World Championship without wasting rerolls on temporary cards.",
-  alternates: { canonical: "/packs-guide/" },
+  alternates: { canonical: "/packs-guide" },
 };
 
 const faqs = [

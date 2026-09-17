@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Win A World Championship Calculator - Reroll & Pack Budget 2026",
   description:
     "Use the Win A World Championship calculator to plan code rewards, Coins, Team Rerolls, Year Rerolls, pack openings, and squad weak-line priorities.",
-  alternates: { canonical: "/calculator/" },
+  alternates: { canonical: "/calculator" },
 };
 
 const faqs = [

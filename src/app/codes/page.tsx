@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: `Win A World Championship Codes (${monthYear}) - Working Rewards`,
   description:
     "Copy working Win A World Championship codes for Coins, Team Rerolls, Year Rerolls, and Tokens. Includes source confidence and redeem steps.",
-  alternates: { canonical: "/codes/" },
+  alternates: { canonical: "/codes" },
 };
 
 const faqs = [

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Win A World Championship Reroll Guide - Team & Year Priorities",
   description:
     "Win A World Championship reroll guide for Team Rerolls, Year Rerolls, reserve targets, and when to keep or reroll cards.",
-  alternates: { canonical: "/reroll-guide/" },
+  alternates: { canonical: "/reroll-guide" },
 };
 
 const rules = [

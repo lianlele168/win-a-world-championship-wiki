@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Win A World Championship Best Team Guide 2026",
   description:
     "Build the best Win A World Championship squad with role order, weak-line fixes, reroll priorities, and tournament-ready team structure.",
-  alternates: { canonical: "/best-team/" },
+  alternates: { canonical: "/best-team" },
 };
 
 const roleOrder = [
