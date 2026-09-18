@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Win A World Championship Beginner Guide 2026",
   description:
     "Start Win A World Championship on Roblox with a practical beginner path: codes, packs, first team roles, rerolls, and tournament preparation.",
-  alternates: { canonical: "/beginner-guide" },
+  alternates: { canonical: "/beginner-guide/" },
 };
 
 const steps = [

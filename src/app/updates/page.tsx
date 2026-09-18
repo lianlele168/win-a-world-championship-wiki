@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Win A World Championship Updates & Sources 2026",
   description:
     "Track Win A World Championship update status, Roblox API stats, current codes, conflicting code sources, and wiki data confidence.",
-  alternates: { canonical: "/updates" },
+  alternates: { canonical: "/updates/" },
 };
 
 const faqs = [

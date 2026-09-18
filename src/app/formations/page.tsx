@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Win A World Championship Formations Guide 2026",
   description:
     "Pick the best Win A World Championship formation for your card roles: 4-3-3, 4-2-3-1, 4-4-2, and defensive tournament setups.",
-  alternates: { canonical: "/formations" },
+  alternates: { canonical: "/formations/" },
 };
 
 const formations = [

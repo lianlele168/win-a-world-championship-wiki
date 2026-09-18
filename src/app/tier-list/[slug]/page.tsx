@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${card.name} - Win A World Championship Tier List`,
     description: `${card.name} role notes, best uses, keep signals, and reroll advice for Win A World Championship on Roblox.`,
-    alternates: { canonical: `/tier-list/${card.slug}` },
+    alternates: { canonical: `/tier-list/${card.slug}/` },
   };
 }
 

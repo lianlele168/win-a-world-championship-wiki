@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Win A World Championship Tier List - Best Card Roles 2026",
   description:
     "Win A World Championship tier list for card archetypes, keep-or-reroll decisions, best roles, and squad upgrade priorities.",
-  alternates: { canonical: "/tier-list" },
+  alternates: { canonical: "/tier-list/" },
 };
 
 const faqs = [
