@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "What are the current official Win A World Championship codes?",
     answer:
-      "The current codes still listed in the Roblox description are MEMBERS200K, DAILY, VISIT5M, LIKES10K, CCU5K, and INDEX as of August 23, 2026.",
+      "The current codes still listed in the Roblox description are MEMBERS200K, DAILY, VISIT5M, LIKES10K, CCU5K, and INDEX as of .",
   },
   {
     question: "What should I spend code rewards on first?",

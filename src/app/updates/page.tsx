@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "When was the game last updated?",
-    answer: "Roblox API data checked during setup showed the game updated on August 23, 2026.",
+    answer: "Roblox API data checked during setup showed the game updated on .",
   },
   {
     question: "Will this page track new patches?",

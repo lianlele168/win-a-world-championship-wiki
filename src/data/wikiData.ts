@@ -151,10 +151,10 @@ export const TOURNAMENT_PACKS_DATA: TournamentPack[] = [
 ];
 
 export const CHAMPIONSHIP_CODES_DATA: ChampionshipCode[] = [
-  { id: 'code-fifa2026', code: 'WORLDCHAMP2026', reward: '50,000 Trophy Coins + 2x Gold Packs', status: 'ACTIVE', dateAdded: '2026-08-20' },
-  { id: 'code-trophywin', code: 'GOLDENGROUP', reward: 'Free Diamond Reroll Token', status: 'ACTIVE', dateAdded: '2026-08-10' },
-  { id: 'code-blackbarn', code: 'BLACKBARN', reward: '25,000 Coins + Stamina Potion', status: 'ACTIVE', dateAdded: '2026-08-01' },
-  { id: 'code-finalgoal', code: 'HAT_TRICK', reward: '3x Premium Scout Packs', status: 'ACTIVE', dateAdded: '2026-07-25' },
-  { id: 'code-penalty', code: 'CLEANSHEET', reward: '10,000 Coins', status: 'ACTIVE', dateAdded: '2026-07-15' },
-  { id: 'code-champions', code: 'CHAMPIONS26', reward: 'Rare Winger Card Unlock', status: 'ACTIVE', dateAdded: '2026-07-01' }
+  { id: 'code-fifa2026', code: 'WORLDCHAMP2026', reward: '50,000 Trophy Coins + 2x Gold Packs', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-trophywin', code: 'GOLDENGROUP', reward: 'Free Diamond Reroll Token', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-blackbarn', code: 'BLACKBARN', reward: '25,000 Coins + Stamina Potion', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-finalgoal', code: 'HAT_TRICK', reward: '3x Premium Scout Packs', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-penalty', code: 'CLEANSHEET', reward: '10,000 Coins', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-champions', code: 'CHAMPIONS26', reward: 'Rare Winger Card Unlock', status: 'ACTIVE', dateAdded: '' }
 ];
