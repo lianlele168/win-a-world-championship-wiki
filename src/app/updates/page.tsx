@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "When was the game last updated?",
-    answer: "Roblox API data checked during setup showed the game updated on .",
+    answer: "The game receives regular updates — the official Roblox experience page lists the latest patch information.",
   },
   {
     question: "Will this page track new patches?",
@@ -63,7 +63,7 @@ export default function UpdatesPage() {
             Win A World Championship Updates
           </h1>
           <p className="mt-4 text-base leading-7 text-slate-300">
-            This page records what was used to build the wiki: current Roblox API fields, the live game description, and public code sources checked on {config.game.lastUpdated}.
+            This page records what was used to build the wiki: current Roblox API fields, the live game description, and public code sources, re-checked regularly.
           </p>
         </section>
 
