@@ -96,6 +96,7 @@ export default function Footer() {
 
         <div className="mt-9 border-t border-white/10 pt-6 text-xs">
           © {new Date().getFullYear()} {config.game.name} Wiki. Unofficial Roblox companion site.
+          <p className="mt-1 text-white/40">Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail.com</p>
         </div>
       </div>
     </footer>
