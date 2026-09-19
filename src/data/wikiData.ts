@@ -151,10 +151,14 @@ export const TOURNAMENT_PACKS_DATA: TournamentPack[] = [
 ];
 
 export const CHAMPIONSHIP_CODES_DATA: ChampionshipCode[] = [
-  { id: 'code-fifa2026', code: 'WORLDCHAMP2026', reward: '50,000 Trophy Coins + 2x Gold Packs', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-trophywin', code: 'GOLDENGROUP', reward: 'Free Diamond Reroll Token', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-blackbarn', code: 'BLACKBARN', reward: '25,000 Coins + Stamina Potion', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-finalgoal', code: 'HAT_TRICK', reward: '3x Premium Scout Packs', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-penalty', code: 'CLEANSHEET', reward: '10,000 Coins', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-champions', code: 'CHAMPIONS26', reward: 'Rare Winger Card Unlock', status: 'ACTIVE', dateAdded: '' }
+  { id: 'code-members200k', code: 'MEMBERS200K', reward: '7,500 Coins + 5 Team Rerolls + 5 Year Rerolls', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-daily', code: 'DAILY', reward: '10,000 Coins + 5 Team Rerolls', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-visit5m', code: 'VISIT5M', reward: 'Free Coins', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-likes10k', code: 'LIKES10K', reward: 'Free Coins', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-likes5000', code: 'LIKES5000', reward: 'Free Coins', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-ccu5k', code: 'CCU5K', reward: 'Free Coins', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-likes500', code: 'LIKES500', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-likes1000', code: 'LIKES1000', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-ccu1k', code: 'CCU1K', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' },
+  { id: 'code-dictator', code: 'DICTATOR', reward: 'Expired — reward not documented by the publisher', status: 'EXPIRED', dateAdded: '' }
 ];
