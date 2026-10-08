@@ -1,4 +1,28 @@
 
+> win-a-world-championship-wiki@0.1.0 build
+> node scripts/build-reviewed.mjs
+
+{
+  "name": "win-a-world-championship-wiki",
+  "gateVersion": 2,
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    "Review source authenticity, claim support, calibration correctness and inventory completeness manually. Self-authored records are not independent proof."
+  ],
+  "checks": {
+    "fingerprint": {
+      "sha256": "7511eec118b41f94ea13c8be6a8d307a057f8af0de721fff00a42d37443c2adc",
+      "files": 29
+    },
+    "pages": 5,
+    "claims": 13,
+    "sources": 6,
+    "artifacts": 22
+  },
+  "limitation": "Checks evidence completeness and recorded results; cannot certify fact truth, actual execution or Google indexing."
+}
+
 > win-a-world-championship-wiki@0.1.0 build:site
 > next build
 

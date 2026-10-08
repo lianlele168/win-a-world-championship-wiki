@@ -1,13 +1,13 @@
 {
-  "codeFingerprint": "4d0c739b871e6f0b20a41b8646186e0bd8acbba8a96e2762f4ff4fe6a3395953",
-  "checkedAt": "2026-10-08T16:28:52.207Z",
+  "codeFingerprint": "7511eec118b41f94ea13c8be6a8d307a057f8af0de721fff00a42d37443c2adc",
+  "checkedAt": "2026-10-08T16:59:21.330Z",
   "routeInventoryArtifact": {
     "path": "quality/artifacts/routes.json",
     "sha256": "ac28c9aa9ff598846703e21620c1d24ed667ff77e743f642b0ce96cceae46e98"
   },
   "sitemapArtifact": {
     "path": "quality/artifacts/sitemap.xml",
-    "sha256": "efed075258af63497a262ea97cb7c2453cae6781ae1a8a54f999de3de6bc6616"
+    "sha256": "dea9d81761eeedec96c402de5bbd9971f5b44362904eb19b1e3234b4f9e8ec50"
   },
   "pages": [
     {
@@ -15,11 +15,11 @@
       "title": "Win A World Championship — Listed codes & Official Game Links",
       "renderedArtifact": {
         "path": "quality/artifacts/home.html",
-        "sha256": "ed509aa0b1a37317e99891686e9ed911ce2ad15bac25467f756bef41b0029c44"
+        "sha256": "93babb694527da8a638619cfccb502dba65ec4fef13a8007922876cb33dfbbb4"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/home-technical.json",
-        "sha256": "376f4b9801edf86294dffd988e22d50041fff9b0f8fbfdff3b609bed38552450"
+        "sha256": "9055061990cfa306586b8fb6e527ad26d351f136d5c5f9cee271121bedb2ac70"
       },
       "issues": {
         "brokenLinks": [],
@@ -32,11 +32,11 @@
       "title": "About & sources | Win A World Championship Companion",
       "renderedArtifact": {
         "path": "quality/artifacts/about.html",
-        "sha256": "03f1e97929a5ff714c3801536ff222cbc4901b9f8148ce92b39c4f3a9af02a16"
+        "sha256": "de496d7d4f02a21f3b90188520387decdb92f372bb1d4fa7c3ffbe5ab16287fd"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/about-technical.json",
-        "sha256": "d72367e7d011c38e2a6a7f32db638dbfbb531e634c3a2027ede469c9feada2d0"
+        "sha256": "596e8140028345e042a7555de28681917fd32088e9dcb7fa9745fd20a5d1bda2"
       },
       "issues": {
         "brokenLinks": [],
@@ -49,11 +49,11 @@
       "title": "Codes Listed by the Developer | Win A World Championship Companion",
       "renderedArtifact": {
         "path": "quality/artifacts/codes.html",
-        "sha256": "7536815c79b6cb9dcddba31cea9eb360433f4403b7e85aaee22a4e764a2c6fed"
+        "sha256": "c27b56e9a40db394a026aa2193a08f4b59b74032ca1d78d02d4a767ae99b649f"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/codes-technical.json",
-        "sha256": "e23ada216077e144e05b30778624c1fd67d5983109b90495b40db4555e9ddf75"
+        "sha256": "fcdd9ec3e954a7a16f9620613cff9677dbe7a27319aabf868b8e5a4d6a7bc956"
       },
       "issues": {
         "brokenLinks": [],
@@ -66,11 +66,11 @@
       "title": "Privacy | Win A World Championship Companion",
       "renderedArtifact": {
         "path": "quality/artifacts/privacy-policy.html",
-        "sha256": "b3119f229c37edceae1c3c56502741f70ec121fcf424696a08d21e3d47bb91ea"
+        "sha256": "18e6dfa15c7a040bebce87b247aadb2e3f037d4d32fbc49fa262ca5ec587c60d"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/privacy-policy-technical.json",
-        "sha256": "c07b06cf70a288f25ac78fbcc3075826438d6c5d7f9094708abb07d450b46dfe"
+        "sha256": "487032a60eb3fd1818a0f1819b465c4ce0867eda891f909db31d1ba98e3508fe"
       },
       "issues": {
         "brokenLinks": [],
@@ -83,11 +83,11 @@
       "title": "Terms of use | Win A World Championship Companion",
       "renderedArtifact": {
         "path": "quality/artifacts/terms.html",
-        "sha256": "2a83f42e1700e1b482e5d9ec0f91d3ce4c58b20e6137255c626e2521165d25a2"
+        "sha256": "a88c04f19f914a53840d7e51955d0a03ae5bb86f169f875fa907df66839c2dff"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/terms-technical.json",
-        "sha256": "f1c02edcec66fe4fe7c5774ed0e481acc84a32d0290c2d441a284e03464e4dbc"
+        "sha256": "a46505b02e3fb14651628f3b2ee1283c4b3cc0d28e351af90e04db888ccf5bd4"
       },
       "issues": {
         "brokenLinks": [],
@@ -96,5 +96,5 @@
       }
     }
   ],
-  "status": "reviewed-after-dependency-repair"
+  "status": "reviewed-after-clean-git-gate-repair"
 }

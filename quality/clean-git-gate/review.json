@@ -1,0 +1,279 @@
+{
+  "checkedAt": "2026-10-08T17:01:11.277569+00:00",
+  "reviewer": "Codex agent / HTML5 repairs",
+  "scope": "Gate cache exclusion plus explicit /favicon.svg metadata; game facts and main HTML unchanged.",
+  "archiveHead": "5515e09a2aedc9c4f5152bb5a7b1829a1a3aba89",
+  "archiveSha256": "65f35f640146e983927f03959bdc9db1e85cb384cbac1dcfcb84c97a23f9bb7c",
+  "pendingOverlay": [
+    {
+      "path": "scripts/quality-gate.mjs",
+      "sha256": "db632aeda7e3dc7a4e7292b31e273f3884ad2c3d9a56fab41e8ccec8c9a12b97",
+      "reason": "Pending gate patch overlaid on clean Git archive; no ignored cache copied."
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sha256": "dae51120c5cf97901f63c8876a6665b0bd72468442e856c3edf4b0507c67e477",
+      "reason": "Only metadata icons:{icon:\"/favicon.svg\"}; existing SVG file reused to avoid implicit missing favicon.ico."
+    }
+  ],
+  "fingerprintAgreement": {
+    "cleanBeforeBuild": {
+      "sha256": "7511eec118b41f94ea13c8be6a8d307a057f8af0de721fff00a42d37443c2adc",
+      "files": 29
+    },
+    "cleanAfterBuild": {
+      "sha256": "7511eec118b41f94ea13c8be6a8d307a057f8af0de721fff00a42d37443c2adc",
+      "files": 29
+    },
+    "workingDirectory": {
+      "sha256": "7511eec118b41f94ea13c8be6a8d307a057f8af0de721fff00a42d37443c2adc",
+      "files": 29
+    }
+  },
+  "actualCommands": [
+    "Linux Node22.23.3/npm10.9.9 npm ci --no-audit --no-fund",
+    "npm run build:site",
+    "Chrome all routes at 390/768/1024/1440",
+    "Repeated applicable interaction test script"
+  ],
+  "interactionCount": 7,
+  "calibrationCount": 0,
+  "interactionCheckedAt": "2026-10-08T17:01:09.174Z",
+  "pages": [
+    {
+      "path": "/",
+      "mainHtmlUnchanged": true,
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "8859c2b742c60d37f673a25e65ce389b8e8c08c3f87735ed8fa025f4d6f1c784",
+          "afterSha256": "8859c2b742c60d37f673a25e65ce389b8e8c08c3f87735ed8fa025f4d6f1c784",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "abe20383f6a560a5c5b38d9fc36716a2f6988b46b790b030bbf1bc4a4f33f64a",
+          "afterSha256": "abe20383f6a560a5c5b38d9fc36716a2f6988b46b790b030bbf1bc4a4f33f64a",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "782d2cc8ae251107d14d93ea970de19795cc78aeb423c16895227d830a572884",
+          "afterSha256": "782d2cc8ae251107d14d93ea970de19795cc78aeb423c16895227d830a572884",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "113cfe4babf3c6ec7979cf26b431e3848f9a1adc81e00e01885389e18c46255a",
+          "afterSha256": "113cfe4babf3c6ec7979cf26b431e3848f9a1adc81e00e01885389e18c46255a",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        }
+      ]
+    },
+    {
+      "path": "/about/",
+      "mainHtmlUnchanged": true,
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "682fd31cce7574ea3b93fe7e8dfe7fbd2abc3c103035c9bcc606d49f6849e500",
+          "afterSha256": "682fd31cce7574ea3b93fe7e8dfe7fbd2abc3c103035c9bcc606d49f6849e500",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "af9b9cedf8b2faa971cd5050a1e49eb193bfc69cbea3f3d553ebdcd44ba2b2fb",
+          "afterSha256": "af9b9cedf8b2faa971cd5050a1e49eb193bfc69cbea3f3d553ebdcd44ba2b2fb",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "58fe46927d41851e4c66716268b9960fd2bdb72e04f838fa29da4ea35adb960a",
+          "afterSha256": "58fe46927d41851e4c66716268b9960fd2bdb72e04f838fa29da4ea35adb960a",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "56ec064a70022f7ec3be18d5b3ca7fa3290175778fb88524b690308c7698e990",
+          "afterSha256": "56ec064a70022f7ec3be18d5b3ca7fa3290175778fb88524b690308c7698e990",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        }
+      ]
+    },
+    {
+      "path": "/codes/",
+      "mainHtmlUnchanged": true,
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "605e22ad432bf69154a84ddca167de1871e30faf55d1ddf2d9fe221e0bbd7e2a",
+          "afterSha256": "605e22ad432bf69154a84ddca167de1871e30faf55d1ddf2d9fe221e0bbd7e2a",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "86505dd7205671cce81906e4a7999359dfad3639472c3596ef91669e1ebbc77f",
+          "afterSha256": "86505dd7205671cce81906e4a7999359dfad3639472c3596ef91669e1ebbc77f",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "89adf3fd40733ac1dfd52418b804a74cbc9b7e31db60a4f110451d1e8ae93398",
+          "afterSha256": "89adf3fd40733ac1dfd52418b804a74cbc9b7e31db60a4f110451d1e8ae93398",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "e2bc341a60edad272eec28a801135910818c470ce6326249170144df4d46397c",
+          "afterSha256": "e2bc341a60edad272eec28a801135910818c470ce6326249170144df4d46397c",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        }
+      ]
+    },
+    {
+      "path": "/privacy-policy/",
+      "mainHtmlUnchanged": true,
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "e9f3ce442990ca3ea893e0098a249389107da6fabe748bbeb2b527d0e20ff187",
+          "afterSha256": "e9f3ce442990ca3ea893e0098a249389107da6fabe748bbeb2b527d0e20ff187",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "1afc187ad715b82dde075d08453c31f326e5eeb9c09c317b05f1dbc650b764f2",
+          "afterSha256": "1afc187ad715b82dde075d08453c31f326e5eeb9c09c317b05f1dbc650b764f2",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "45389f7da6b940090e12774def12fe136e7919b2e5ad99d8292e9db7b85bc5d9",
+          "afterSha256": "45389f7da6b940090e12774def12fe136e7919b2e5ad99d8292e9db7b85bc5d9",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "8e3388d01bc4e5016312bfd4c0e8f783701393ad6350ab599a9a1438fe31a88f",
+          "afterSha256": "8e3388d01bc4e5016312bfd4c0e8f783701393ad6350ab599a9a1438fe31a88f",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        }
+      ]
+    },
+    {
+      "path": "/terms/",
+      "mainHtmlUnchanged": true,
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "c7035423ba34c735b294e862ebaf2f466a0ce0900cc37439d18bc5acb4a01d86",
+          "afterSha256": "c7035423ba34c735b294e862ebaf2f466a0ce0900cc37439d18bc5acb4a01d86",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "7f95721567b6e58f6e355900d91e414a97cb3758d37852f9b66f9a110a724147",
+          "afterSha256": "7f95721567b6e58f6e355900d91e414a97cb3758d37852f9b66f9a110a724147",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "71a9ce7169d0065d4a94e2d3789cfa2ece1f558f1924a3965a0868cc4efb3828",
+          "afterSha256": "71a9ce7169d0065d4a94e2d3789cfa2ece1f558f1924a3965a0868cc4efb3828",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "ef43377fb587e4899f2104ffa5d9789c7c2685bca1b1c4c2c07c6d9014dc9a0e",
+          "afterSha256": "ef43377fb587e4899f2104ffa5d9789c7c2685bca1b1c4c2c07c6d9014dc9a0e",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Matches prior reviewed pixels (at most 1/255 channel rasterization variation)"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Pending gate patch has not been committed by this subagent; root should archive its final committed HEAD for final CI parity confirmation.",
+    "No new game-source or Google indexing result claimed."
+  ],
+  "gateSemantics": [
+    "Exclude generated *.tsbuildinfo and root next-env.d.ts from source fingerprint",
+    "Normalize only root vercel.json via JSON.parse and JSON.stringify; retain key order and values so provider formatting is harmless but semantic edits invalidate evidence"
+  ],
+  "guardedBuild": {
+    "command": "npm run build",
+    "runtime": "Linux22.23.3/npm10.9.9 clean Git candidate",
+    "exitCode": 0,
+    "artifact": {
+      "path": "quality/clean-git-gate/linux-guarded-build.log",
+      "sha256": "b1ec7ed13668044bb11e4fc1a85ea20de6deee756dd6f50dfa49a58dd57fe398"
+    }
+  },
+  "providerFormattedGate": {
+    "passed": true,
+    "fingerprint": {
+      "sha256": "7511eec118b41f94ea13c8be6a8d307a057f8af0de721fff00a42d37443c2adc",
+      "files": 29
+    },
+    "artifact": {
+      "path": "quality/clean-git-gate/provider-formatted-gate.json",
+      "sha256": "e5c7c0d63d9350acddeb907d54290d92e54c6c2a7952bb3719b1b606dfb48997"
+    }
+  },
+  "independentBrowserCheck": {
+    "reviewer": "Codex agent / Roblox repairs",
+    "scope": "Actual independent local browser check, not production",
+    "routes": 5,
+    "resources": 40,
+    "artifact": {
+      "path": "quality/clean-git-gate/independent-browser-check.json",
+      "sha256": "66399494bddfb9080013a50ac0854ca75ae8b9fdf6b5569d50fd562d099527fc"
+    }
+  },
+  "faviconCheck": {
+    "passed": true,
+    "artifact": {
+      "path": "quality/clean-git-gate/favicon-check.json",
+      "sha256": "31a404d8af0e4abc871286bc212afdf58e6614b8bb6d0e96fe0d322479b14a09"
+    }
+  }
+}

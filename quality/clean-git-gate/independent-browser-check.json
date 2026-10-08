@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "project": "win-a-world-championship-wiki",
+  "scope": "local static export selector validation; not production",
+  "origin": "http://127.0.0.1:53262",
+  "productionOrigin": "https://winaworldchampionship.robloxwikihub.com",
+  "commit": null,
+  "deploymentReference": null,
+  "deploymentUrl": null,
+  "provenance": "Commit and deployment identifiers come from release input; provider/alias binding must be independently verified by publication controller.",
+  "checkedAt": "2026-10-08T17:02:27.418Z",
+  "checks": [
+    "Local export list and actual clipboard match six source-listed strings",
+    "Retired or unknown path is genuine HTTP404; 390/768/1024/1440 browser views have no horizontal overflow",
+    "Every reviewed public route loaded in real Chrome; observed scripts/styles/images/fonts captured with HTTP, MIME and response-byte hashes"
+  ],
+  "visitedPages": [
+    {
+      "path": "/codes/",
+      "url": "http://127.0.0.1:53262/codes/",
+      "httpStatus": 200,
+      "sha256": "c27b56e9a40db394a026aa2193a08f4b59b74032ca1d78d02d4a767ae99b649f"
+    },
+    {
+      "path": "/",
+      "url": "http://127.0.0.1:53262/",
+      "httpStatus": 200,
+      "sha256": "93babb694527da8a638619cfccb502dba65ec4fef13a8007922876cb33dfbbb4"
+    },
+    {
+      "path": "/about/",
+      "url": "http://127.0.0.1:53262/about/",
+      "httpStatus": 200,
+      "sha256": "de496d7d4f02a21f3b90188520387decdb92f372bb1d4fa7c3ffbe5ab16287fd"
+    },
+    {
+      "path": "/privacy-policy/",
+      "url": "http://127.0.0.1:53262/privacy-policy/",
+      "httpStatus": 200,
+      "sha256": "18e6dfa15c7a040bebce87b247aadb2e3f037d4d32fbc49fa262ca5ec587c60d"
+    },
+    {
+      "path": "/terms/",
+      "url": "http://127.0.0.1:53262/terms/",
+      "httpStatus": 200,
+      "sha256": "a88c04f19f914a53840d7e51955d0a03ae5bb86f169f875fa907df66839c2dff"
+    }
+  ],
+  "resourceChecks": [
+    {
+      "url": "http://127.0.0.1:53262/_next/static/css/1a421a137827025d.css",
+      "resourceType": "stylesheet",
+      "status": 200,
+      "contentType": "text/css",
+      "documentUrl": "http://127.0.0.1:53262/codes/",
+      "sha256": "3059eeb106a61b03f25b506071eafc9e2b6a199877ab0acddf5f8f327411b0e9",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/webpack-8658fdbc42bfbbae.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/codes/",
+      "sha256": "fe0656291836116476691bed8de965bd71a8b846f4b934a34291efb5ec2c0533",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/main-app-9ef4b43a17a72dcc.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/codes/",
+      "sha256": "230204db105b3ecff1473f02784581d568ad06e974f5b4e8ea573fd89746a9d8",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/codes/page-c34b8ac4854e5876.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/codes/",
+      "sha256": "a367b3361acf41c68daf20d0fc9206d9c7083604f0c709ca3f918566a396db21",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/972-ceea3baa05359a1c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/codes/",
+      "sha256": "ba8d97dba2235cf174abe4e9a93fe5e75da8bc4799381cff8c38104bceb15941",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/codes/",
+      "sha256": "b8bddf9481d859d648e1e050f8322eb3defe3dd3f9bd13f4c44dd6f2ecf5ab80",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/117-ab3869bd270a9f4c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/codes/",
+      "sha256": "c1ea07ec7c07dca44034822f7545676aa851fed1ec6210a4baec50e6b8ec5a8c",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/page-e994d17bb30c4908.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/codes/",
+      "sha256": "b00153a445b57eb6d7644b078d4354b3ff96bd59fdd5dc9a22a7ff8d51cc4c45",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/css/1a421a137827025d.css",
+      "resourceType": "stylesheet",
+      "status": 200,
+      "contentType": "text/css",
+      "documentUrl": "http://127.0.0.1:53262/",
+      "sha256": "3059eeb106a61b03f25b506071eafc9e2b6a199877ab0acddf5f8f327411b0e9",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/webpack-8658fdbc42bfbbae.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/",
+      "sha256": "fe0656291836116476691bed8de965bd71a8b846f4b934a34291efb5ec2c0533",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/main-app-9ef4b43a17a72dcc.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/",
+      "sha256": "230204db105b3ecff1473f02784581d568ad06e974f5b4e8ea573fd89746a9d8",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/page-e994d17bb30c4908.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/",
+      "sha256": "b00153a445b57eb6d7644b078d4354b3ff96bd59fdd5dc9a22a7ff8d51cc4c45",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/972-ceea3baa05359a1c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/",
+      "sha256": "ba8d97dba2235cf174abe4e9a93fe5e75da8bc4799381cff8c38104bceb15941",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/117-ab3869bd270a9f4c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/",
+      "sha256": "c1ea07ec7c07dca44034822f7545676aa851fed1ec6210a4baec50e6b8ec5a8c",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/",
+      "sha256": "b8bddf9481d859d648e1e050f8322eb3defe3dd3f9bd13f4c44dd6f2ecf5ab80",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/codes/page-c34b8ac4854e5876.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/",
+      "sha256": "a367b3361acf41c68daf20d0fc9206d9c7083604f0c709ca3f918566a396db21",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/css/1a421a137827025d.css",
+      "resourceType": "stylesheet",
+      "status": 200,
+      "contentType": "text/css",
+      "documentUrl": "http://127.0.0.1:53262/about/",
+      "sha256": "3059eeb106a61b03f25b506071eafc9e2b6a199877ab0acddf5f8f327411b0e9",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/webpack-8658fdbc42bfbbae.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/about/",
+      "sha256": "fe0656291836116476691bed8de965bd71a8b846f4b934a34291efb5ec2c0533",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/main-app-9ef4b43a17a72dcc.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/about/",
+      "sha256": "230204db105b3ecff1473f02784581d568ad06e974f5b4e8ea573fd89746a9d8",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/about/page-a86cc103372ef232.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/about/",
+      "sha256": "96f2355c81d79fbba419c8adcf31bd0831be2bf82e0937867fcfbe63dc94a785",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/972-ceea3baa05359a1c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/about/",
+      "sha256": "ba8d97dba2235cf174abe4e9a93fe5e75da8bc4799381cff8c38104bceb15941",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/117-ab3869bd270a9f4c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/about/",
+      "sha256": "c1ea07ec7c07dca44034822f7545676aa851fed1ec6210a4baec50e6b8ec5a8c",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/about/",
+      "sha256": "b8bddf9481d859d648e1e050f8322eb3defe3dd3f9bd13f4c44dd6f2ecf5ab80",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/codes/page-c34b8ac4854e5876.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/about/",
+      "sha256": "a367b3361acf41c68daf20d0fc9206d9c7083604f0c709ca3f918566a396db21",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/css/1a421a137827025d.css",
+      "resourceType": "stylesheet",
+      "status": 200,
+      "contentType": "text/css",
+      "documentUrl": "http://127.0.0.1:53262/privacy-policy/",
+      "sha256": "3059eeb106a61b03f25b506071eafc9e2b6a199877ab0acddf5f8f327411b0e9",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/webpack-8658fdbc42bfbbae.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/privacy-policy/",
+      "sha256": "fe0656291836116476691bed8de965bd71a8b846f4b934a34291efb5ec2c0533",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/main-app-9ef4b43a17a72dcc.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/privacy-policy/",
+      "sha256": "230204db105b3ecff1473f02784581d568ad06e974f5b4e8ea573fd89746a9d8",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/privacy-policy/page-6cf94fec3e0bbc46.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/privacy-policy/",
+      "sha256": "eb631e80650e9d74e0d2c74b63d15022cc706b6d628b4a039cc795a413046f30",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/972-ceea3baa05359a1c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/privacy-policy/",
+      "sha256": "ba8d97dba2235cf174abe4e9a93fe5e75da8bc4799381cff8c38104bceb15941",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/117-ab3869bd270a9f4c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/privacy-policy/",
+      "sha256": "c1ea07ec7c07dca44034822f7545676aa851fed1ec6210a4baec50e6b8ec5a8c",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/privacy-policy/",
+      "sha256": "b8bddf9481d859d648e1e050f8322eb3defe3dd3f9bd13f4c44dd6f2ecf5ab80",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/codes/page-c34b8ac4854e5876.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/privacy-policy/",
+      "sha256": "a367b3361acf41c68daf20d0fc9206d9c7083604f0c709ca3f918566a396db21",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/css/1a421a137827025d.css",
+      "resourceType": "stylesheet",
+      "status": 200,
+      "contentType": "text/css",
+      "documentUrl": "http://127.0.0.1:53262/terms/",
+      "sha256": "3059eeb106a61b03f25b506071eafc9e2b6a199877ab0acddf5f8f327411b0e9",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/webpack-8658fdbc42bfbbae.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/terms/",
+      "sha256": "fe0656291836116476691bed8de965bd71a8b846f4b934a34291efb5ec2c0533",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/main-app-9ef4b43a17a72dcc.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/terms/",
+      "sha256": "230204db105b3ecff1473f02784581d568ad06e974f5b4e8ea573fd89746a9d8",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/terms/page-c7e5a901f3f62f88.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/terms/",
+      "sha256": "dac67ebee1ba430e6e6adefd962c8fe17dbd3eff227e18fc1e046faf1ca19b21",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/972-ceea3baa05359a1c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/terms/",
+      "sha256": "ba8d97dba2235cf174abe4e9a93fe5e75da8bc4799381cff8c38104bceb15941",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/117-ab3869bd270a9f4c.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/terms/",
+      "sha256": "c1ea07ec7c07dca44034822f7545676aa851fed1ec6210a4baec50e6b8ec5a8c",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/terms/",
+      "sha256": "b8bddf9481d859d648e1e050f8322eb3defe3dd3f9bd13f4c44dd6f2ecf5ab80",
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:53262/_next/static/chunks/app/codes/page-c34b8ac4854e5876.js",
+      "resourceType": "script",
+      "status": 200,
+      "contentType": "text/javascript",
+      "documentUrl": "http://127.0.0.1:53262/terms/",
+      "sha256": "a367b3361acf41c68daf20d0fc9206d9c7083604f0c709ca3f918566a396db21",
+      "passed": true
+    }
+  ],
+  "networkErrors": [],
+  "completedHeadRequests": [],
+  "consoleErrors": [],
+  "errors": [],
+  "passed": true,
+  "completedAt": "2026-10-08T17:02:30.539Z"
+}
