@@ -1,6 +1,6 @@
 {
-  "codeFingerprint": "175941e95e52e9fb5cb68c7e476e5d2bbb78c1c5c607b44b590564200c7575a4",
-  "checkedAt": "2026-10-08T16:02:22.137Z",
+  "codeFingerprint": "4d0c739b871e6f0b20a41b8646186e0bd8acbba8a96e2762f4ff4fe6a3395953",
+  "checkedAt": "2026-10-08T16:28:52.207Z",
   "routeInventoryArtifact": {
     "path": "quality/artifacts/routes.json",
     "sha256": "ac28c9aa9ff598846703e21620c1d24ed667ff77e743f642b0ce96cceae46e98"
@@ -15,11 +15,11 @@
       "title": "Win A World Championship — Listed codes & Official Game Links",
       "renderedArtifact": {
         "path": "quality/artifacts/home.html",
-        "sha256": "65a623fd2d3be81467026c6bca0f532be80d86ccd76e76f75a671f25f0a1c725"
+        "sha256": "ed509aa0b1a37317e99891686e9ed911ce2ad15bac25467f756bef41b0029c44"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/home-technical.json",
-        "sha256": "feb0dc1adbc3c9e8af89539e1a29c7a5890e2c1c8eee18d055573d1ce4fe4a6d"
+        "sha256": "376f4b9801edf86294dffd988e22d50041fff9b0f8fbfdff3b609bed38552450"
       },
       "issues": {
         "brokenLinks": [],
@@ -32,11 +32,11 @@
       "title": "About & sources | Win A World Championship Companion",
       "renderedArtifact": {
         "path": "quality/artifacts/about.html",
-        "sha256": "8eb61104e4edf89a91ec174de40685a67c2764b84f6b58c820c90d157d948269"
+        "sha256": "03f1e97929a5ff714c3801536ff222cbc4901b9f8148ce92b39c4f3a9af02a16"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/about-technical.json",
-        "sha256": "32945e28d2a5af59d2cf69ff7fb2200f999abffab39130ee073ef43ebe1f365c"
+        "sha256": "d72367e7d011c38e2a6a7f32db638dbfbb531e634c3a2027ede469c9feada2d0"
       },
       "issues": {
         "brokenLinks": [],
@@ -49,11 +49,11 @@
       "title": "Codes Listed by the Developer | Win A World Championship Companion",
       "renderedArtifact": {
         "path": "quality/artifacts/codes.html",
-        "sha256": "442f8c2e18d0d3525c6751b83eb0720b1e559ccb1a0c34e7b21be5df6f0582e0"
+        "sha256": "7536815c79b6cb9dcddba31cea9eb360433f4403b7e85aaee22a4e764a2c6fed"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/codes-technical.json",
-        "sha256": "bf7b044189d75b7b141126d2d0cceea371cf39af575f2a36ce438da7cd7dab55"
+        "sha256": "e23ada216077e144e05b30778624c1fd67d5983109b90495b40db4555e9ddf75"
       },
       "issues": {
         "brokenLinks": [],
@@ -66,11 +66,11 @@
       "title": "Privacy | Win A World Championship Companion",
       "renderedArtifact": {
         "path": "quality/artifacts/privacy-policy.html",
-        "sha256": "1c7b5b6440df8766e924636ffa61d7d021f27e47d94aa5ead78e2770b666317e"
+        "sha256": "b3119f229c37edceae1c3c56502741f70ec121fcf424696a08d21e3d47bb91ea"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/privacy-policy-technical.json",
-        "sha256": "b570b7e220b2193db15dada9ed8172a51ae049c82bc8ed4a154d55a5ca2f9b3b"
+        "sha256": "c07b06cf70a288f25ac78fbcc3075826438d6c5d7f9094708abb07d450b46dfe"
       },
       "issues": {
         "brokenLinks": [],
@@ -83,11 +83,11 @@
       "title": "Terms of use | Win A World Championship Companion",
       "renderedArtifact": {
         "path": "quality/artifacts/terms.html",
-        "sha256": "c59153bddbea103389b6a8a55210e566c0fe5c5fd6e89374379c47cdd2f19bc2"
+        "sha256": "2a83f42e1700e1b482e5d9ec0f91d3ce4c58b20e6137255c626e2521165d25a2"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/terms-technical.json",
-        "sha256": "2b8fe0fc786fa7960ff343c07e7422faf4a20098d2e02a2a2209c260c9c94bf9"
+        "sha256": "f1c02edcec66fe4fe7c5774ed0e481acc84a32d0290c2d441a284e03464e4dbc"
       },
       "issues": {
         "brokenLinks": [],
@@ -96,5 +96,5 @@
       }
     }
   ],
-  "status": "pending-content-and-visual-review"
+  "status": "reviewed-after-dependency-repair"
 }

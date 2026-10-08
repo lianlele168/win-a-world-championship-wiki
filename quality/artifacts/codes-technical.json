@@ -1,8 +1,8 @@
 {
   "path": "/codes/",
-  "codeFingerprint": "175941e95e52e9fb5cb68c7e476e5d2bbb78c1c5c607b44b590564200c7575a4",
-  "checkedAt": "2026-10-08T16:02:20.290Z",
-  "testedUrl": "http://127.0.0.1:49680/codes/",
+  "codeFingerprint": "4d0c739b871e6f0b20a41b8646186e0bd8acbba8a96e2762f4ff4fe6a3395953",
+  "checkedAt": "2026-10-08T16:28:50.242Z",
+  "testedUrl": "http://127.0.0.1:50805/codes/",
   "httpStatus": 200,
   "canonical": "https://winaworldchampionship.robloxwikihub.com/codes/",
   "robotsAllowed": true,
@@ -12,7 +12,9 @@
   "links": "passed",
   "linkScope": "internal only",
   "brokenLinks": [],
-  "externalLinksNotChecked": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
   "blockedExternalRequests": [],
   "viewports": [
     {
@@ -69,13 +71,9 @@
     }
   ],
   "interaction": "passed",
-  "contentReview": "completed in quality/content-review.md",
-  "note": "Actual local production-export capture plus subsequent visual/content review. Does not certify deployment or indexing.",
-  "visualReviewer": "Codex agent — all four saved screenshots actually inspected",
-  "visualReviewedAt": "2026-10-08T16:09:06.406970+00:00",
-  "interactionArtifact": {
-    "path": "quality/artifacts/interaction-review.json",
-    "sha256": "e60ba2556da05b64ea65041454f46420e6a7109923485a7a5fd197da1ad1d29e"
-  },
-  "externalLinkReview": "Only external HTTP destination is official Roblox page, captured HTTP 200 in sources/roblox-current-capture.json. mailto retained; no email sent."
+  "contentReview": "Prior factual review retained: source files and all main HTML unchanged; no fresh external fact verification claimed.",
+  "note": "Fresh Linux Node22/npm10 build, fresh Chrome capture and repeated interactions. Details in quality/dependency-repair/review.json.",
+  "externalLinkReview": "Only external HTTP destination is official Roblox page, captured HTTP 200 in sources/roblox-current-capture.json. mailto retained; no email sent.",
+  "visualReviewer": "Codex agent / HTML5 repairs — pixel comparison and changed-capture inspection",
+  "visualReviewedAt": "2026-10-08T16:36:00.857962+00:00"
 }

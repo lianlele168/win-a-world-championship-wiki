@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "codeFingerprint": "175941e95e52e9fb5cb68c7e476e5d2bbb78c1c5c607b44b590564200c7575a4",
+  "codeFingerprint": "4d0c739b871e6f0b20a41b8646186e0bd8acbba8a96e2762f4ff4fe6a3395953",
   "site": {
     "baseUrl": "https://winaworldchampionship.robloxwikihub.com/",
     "officialUrl": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
@@ -63,10 +63,10 @@
       "id": "interaction-review",
       "kind": "observation",
       "url": "https://winaworldchampionship.robloxwikihub.com/codes/",
-      "checkedAt": "2026-10-08T16:02:08.051Z",
+      "checkedAt": "2026-10-08T16:29:07.925Z",
       "artifact": {
         "path": "quality/artifacts/interaction-review.json",
-        "sha256": "e60ba2556da05b64ea65041454f46420e6a7109923485a7a5fd197da1ad1d29e"
+        "sha256": "ca07bb95f02fbfda1c15998827b1eea2aa3d88540f119efd217a01b6242b3d3a"
       }
     },
     {
@@ -352,11 +352,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/home.html",
-        "sha256": "65a623fd2d3be81467026c6bca0f532be80d86ccd76e76f75a671f25f0a1c725"
+        "sha256": "ed509aa0b1a37317e99891686e9ed911ce2ad15bac25467f756bef41b0029c44"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/home-technical.json",
-        "sha256": "ac90ff5212a1ac55483b2421ec4ff023ee4618f48a9cc1a80284376340a02b99"
+        "sha256": "376f4b9801edf86294dffd988e22d50041fff9b0f8fbfdff3b609bed38552450"
       }
     },
     {
@@ -384,11 +384,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/about.html",
-        "sha256": "8eb61104e4edf89a91ec174de40685a67c2764b84f6b58c820c90d157d948269"
+        "sha256": "03f1e97929a5ff714c3801536ff222cbc4901b9f8148ce92b39c4f3a9af02a16"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/about-technical.json",
-        "sha256": "374bf8d982875e3434d42d6c392828576c3b464e89f214acb4e7c703e6ba58ac"
+        "sha256": "d72367e7d011c38e2a6a7f32db638dbfbb531e634c3a2027ede469c9feada2d0"
       }
     },
     {
@@ -419,11 +419,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/codes.html",
-        "sha256": "442f8c2e18d0d3525c6751b83eb0720b1e559ccb1a0c34e7b21be5df6f0582e0"
+        "sha256": "7536815c79b6cb9dcddba31cea9eb360433f4403b7e85aaee22a4e764a2c6fed"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/codes-technical.json",
-        "sha256": "9dce1e3decb8792dbc2b281730bb3016d30283463fc8eccabd8703a945e27a7e"
+        "sha256": "e23ada216077e144e05b30778624c1fd67d5983109b90495b40db4555e9ddf75"
       }
     },
     {
@@ -451,11 +451,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/privacy-policy.html",
-        "sha256": "1c7b5b6440df8766e924636ffa61d7d021f27e47d94aa5ead78e2770b666317e"
+        "sha256": "b3119f229c37edceae1c3c56502741f70ec121fcf424696a08d21e3d47bb91ea"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/privacy-policy-technical.json",
-        "sha256": "d0689ddf10c185649f85eabc017f688fe08c1c14405a812a5a87d80d5fc0eb64"
+        "sha256": "c07b06cf70a288f25ac78fbcc3075826438d6c5d7f9094708abb07d450b46dfe"
       }
     },
     {
@@ -482,11 +482,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/terms.html",
-        "sha256": "c59153bddbea103389b6a8a55210e566c0fe5c5fd6e89374379c47cdd2f19bc2"
+        "sha256": "2a83f42e1700e1b482e5d9ec0f91d3ce4c58b20e6137255c626e2521165d25a2"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/terms-technical.json",
-        "sha256": "b4b35634842c5510dc9771053966438619dcb3a4964992e78ec1b10c7d162ddd"
+        "sha256": "f1c02edcec66fe4fe7c5774ed0e481acc84a32d0290c2d441a284e03464e4dbc"
       }
     }
   ],
@@ -504,11 +504,11 @@
   },
   "skillRunArtifact": {
     "path": "quality/skill-run.md",
-    "sha256": "f79910cae15b6d5a00d6c768d3f8bc88743f5f29b63fdaf4b3dd93f9cc170828"
+    "sha256": "9d0343a6486659b0547a4a98f974b236465feb269d29d5b162af27ea9b6f919f"
   },
   "buildArtifact": {
     "path": "quality/artifacts/build.log",
-    "sha256": "c21673e26777248b89f30e2f402e2a92657523fb2bb1d529360c1126fb8045e2"
+    "sha256": "4d2df61b978af179d7ef5c34ac1b53621ddd7e86c71ee1f77089a8b108b6c35b"
   },
   "buildStatus": "passed",
   "unresolved": []

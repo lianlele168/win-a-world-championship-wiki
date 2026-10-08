@@ -1,0 +1,244 @@
+{
+  "checkedAt": "2026-10-08T16:36:00.857962+00:00",
+  "reviewer": "Codex agent / HTML5 repairs",
+  "scope": "Dependency installation and deployment consistency only; factual claims and dates are retained from the prior actual source review, not re-certified here.",
+  "priorCommit": "5fcd99d53d0b0b73d64a3c146fa9618a6c6cc10a",
+  "beforeFingerprint": "175941e95e52e9fb5cb68c7e476e5d2bbb78c1c5c607b44b590564200c7575a4",
+  "codeFingerprint": "4d0c739b871e6f0b20a41b8646186e0bd8acbba8a96e2762f4ff4fe6a3395953",
+  "runtime": {
+    "node": "22.23.3",
+    "npm": "10.9.9",
+    "os": "Ubuntu 24.04 / WSL2 x86_64"
+  },
+  "installation": "Actual npm ci --no-audit --no-fund in fresh Linux directory; scripts enabled; native SWC and unrs resolver modules loaded",
+  "lockfileChanges": {
+    "added": [
+      "node_modules/@emnapi/core",
+      "node_modules/@emnapi/runtime"
+    ],
+    "removed": [],
+    "existingPackageVersionChanges": [],
+    "note": "npm10 normalizes peer flags; no framework/dependency version upgrade"
+  },
+  "deploymentConfiguration": {
+    "engines.node": "22.x",
+    "installCommand": "npm ci --no-audit --no-fund",
+    "buildCommand": "npm run build"
+  },
+  "sourceChanges": [],
+  "interactionArtifact": "quality/artifacts/interaction-review.json",
+  "interactionCheckedAt": "2026-10-08T16:29:07.925Z",
+  "interactionCount": 7,
+  "calibrationCount": 0,
+  "pages": [
+    {
+      "path": "/",
+      "mainHtmlUnchanged": true,
+      "mainSha256": "419f37e1fbfc45b014f3cca062abec4625772f4fcbc390e3437a81c5d218e0e8",
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "8859c2b742c60d37f673a25e65ce389b8e8c08c3f87735ed8fa025f4d6f1c784",
+          "afterSha256": "8859c2b742c60d37f673a25e65ce389b8e8c08c3f87735ed8fa025f4d6f1c784",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "abe20383f6a560a5c5b38d9fc36716a2f6988b46b790b030bbf1bc4a4f33f64a",
+          "afterSha256": "abe20383f6a560a5c5b38d9fc36716a2f6988b46b790b030bbf1bc4a4f33f64a",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "782d2cc8ae251107d14d93ea970de19795cc78aeb423c16895227d830a572884",
+          "afterSha256": "782d2cc8ae251107d14d93ea970de19795cc78aeb423c16895227d830a572884",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "113cfe4babf3c6ec7979cf26b431e3848f9a1adc81e00e01885389e18c46255a",
+          "afterSha256": "113cfe4babf3c6ec7979cf26b431e3848f9a1adc81e00e01885389e18c46255a",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        }
+      ]
+    },
+    {
+      "path": "/about/",
+      "mainHtmlUnchanged": true,
+      "mainSha256": "00f09c6cf0cf46f1959b792cfdd2381e4b14fc5f34bec102e361239a1a8251de",
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "682fd31cce7574ea3b93fe7e8dfe7fbd2abc3c103035c9bcc606d49f6849e500",
+          "afterSha256": "682fd31cce7574ea3b93fe7e8dfe7fbd2abc3c103035c9bcc606d49f6849e500",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "af9b9cedf8b2faa971cd5050a1e49eb193bfc69cbea3f3d553ebdcd44ba2b2fb",
+          "afterSha256": "af9b9cedf8b2faa971cd5050a1e49eb193bfc69cbea3f3d553ebdcd44ba2b2fb",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "58fe46927d41851e4c66716268b9960fd2bdb72e04f838fa29da4ea35adb960a",
+          "afterSha256": "58fe46927d41851e4c66716268b9960fd2bdb72e04f838fa29da4ea35adb960a",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "56ec064a70022f7ec3be18d5b3ca7fa3290175778fb88524b690308c7698e990",
+          "afterSha256": "56ec064a70022f7ec3be18d5b3ca7fa3290175778fb88524b690308c7698e990",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        }
+      ]
+    },
+    {
+      "path": "/codes/",
+      "mainHtmlUnchanged": true,
+      "mainSha256": "ca98e3bcd153795e2350e258436092da0150f3d57d4caa40975462c6da9d89fb",
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "605e22ad432bf69154a84ddca167de1871e30faf55d1ddf2d9fe221e0bbd7e2a",
+          "afterSha256": "605e22ad432bf69154a84ddca167de1871e30faf55d1ddf2d9fe221e0bbd7e2a",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "86505dd7205671cce81906e4a7999359dfad3639472c3596ef91669e1ebbc77f",
+          "afterSha256": "86505dd7205671cce81906e4a7999359dfad3639472c3596ef91669e1ebbc77f",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "89adf3fd40733ac1dfd52418b804a74cbc9b7e31db60a4f110451d1e8ae93398",
+          "afterSha256": "89adf3fd40733ac1dfd52418b804a74cbc9b7e31db60a4f110451d1e8ae93398",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "e2bc341a60edad272eec28a801135910818c470ce6326249170144df4d46397c",
+          "afterSha256": "e2bc341a60edad272eec28a801135910818c470ce6326249170144df4d46397c",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        }
+      ]
+    },
+    {
+      "path": "/privacy-policy/",
+      "mainHtmlUnchanged": true,
+      "mainSha256": "183c507e671b028f47958fd5edc2f9718f20ac8a409ff64ceeeb69999f9f930c",
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "e9f3ce442990ca3ea893e0098a249389107da6fabe748bbeb2b527d0e20ff187",
+          "afterSha256": "e9f3ce442990ca3ea893e0098a249389107da6fabe748bbeb2b527d0e20ff187",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "1afc187ad715b82dde075d08453c31f326e5eeb9c09c317b05f1dbc650b764f2",
+          "afterSha256": "1afc187ad715b82dde075d08453c31f326e5eeb9c09c317b05f1dbc650b764f2",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "45389f7da6b940090e12774def12fe136e7919b2e5ad99d8292e9db7b85bc5d9",
+          "afterSha256": "45389f7da6b940090e12774def12fe136e7919b2e5ad99d8292e9db7b85bc5d9",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "8e3388d01bc4e5016312bfd4c0e8f783701393ad6350ab599a9a1438fe31a88f",
+          "afterSha256": "8e3388d01bc4e5016312bfd4c0e8f783701393ad6350ab599a9a1438fe31a88f",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        }
+      ]
+    },
+    {
+      "path": "/terms/",
+      "mainHtmlUnchanged": true,
+      "mainSha256": "374b65466fdf4d671b237948095918b569fd265327615b4a1602b3127b800762",
+      "screenshots": [
+        {
+          "width": 390,
+          "beforeSha256": "c7035423ba34c735b294e862ebaf2f466a0ce0900cc37439d18bc5acb4a01d86",
+          "afterSha256": "c7035423ba34c735b294e862ebaf2f466a0ce0900cc37439d18bc5acb4a01d86",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 768,
+          "beforeSha256": "7f95721567b6e58f6e355900d91e414a97cb3758d37852f9b66f9a110a724147",
+          "afterSha256": "7f95721567b6e58f6e355900d91e414a97cb3758d37852f9b66f9a110a724147",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1024,
+          "beforeSha256": "71a9ce7169d0065d4a94e2d3789cfa2ece1f558f1924a3965a0868cc4efb3828",
+          "afterSha256": "71a9ce7169d0065d4a94e2d3789cfa2ece1f558f1924a3965a0868cc4efb3828",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        },
+        {
+          "width": 1440,
+          "beforeSha256": "ef43377fb587e4899f2104ffa5d9789c7c2685bca1b1c4c2c07c6d9014dc9a0e",
+          "afterSha256": "ef43377fb587e4899f2104ffa5d9789c7c2685bca1b1c4c2c07c6d9014dc9a0e",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "review": "Exact pixels or <=1-channel rasterization difference from previously inspected screenshot; representative new screens also viewed"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No Google crawl or indexing result asserted.",
+    "Source facts retain their original review time and capture references.",
+    "Publishing is performed separately by the root agent."
+  ],
+  "guardedBuild": {
+    "command": "npm run build",
+    "runtime": "Linux Node22.23.3/npm10.9.9",
+    "exitCode": 0,
+    "artifact": {
+      "path": "quality/dependency-repair/linux-guarded-build.log",
+      "sha256": "7c175469ff21bf549d1d915fbf809292526ca51738769130ed093a6ab270e192"
+    }
+  }
+}
