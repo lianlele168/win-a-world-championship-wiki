@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+export const codes = ["WORLDHUNT", "MANAGERS", "VISIT10M", "LIKES10K", "MEMBERS200K", "INDEX"];
+export default function CodeList(){const [status,setStatus]=useState("");async function copy(value:string){try{await navigator.clipboard.writeText(value);setStatus(value.includes("\n")?"All listed codes copied.":value+" copied.");}catch{setStatus("Copy was blocked by this browser. Select the visible code text and copy it manually.");}}return <><ul className="code-list">{codes.map(code=><li key={code}><code>{code}</code><button className="button" onClick={()=>copy(code)} aria-label={"Copy "+code}>Copy</button></li>)}</ul><button className="button" onClick={()=>copy(codes.join("\n"))}>Copy all listed codes</button><p className="status" role="status">{status}</p></>;}

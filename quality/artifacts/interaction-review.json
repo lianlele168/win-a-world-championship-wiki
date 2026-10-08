@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-08T16:02:08.051Z",
+  "reviewer": "Codex agent",
+  "scope": "Actual local Chrome production-export interactions. No Roblox login/gameplay or code redemption attempted.",
+  "results": [
+    {
+      "name": "Code text exactly matches captured official description",
+      "status": "passed"
+    },
+    {
+      "name": "Individual copy writes exact string",
+      "status": "passed"
+    },
+    {
+      "name": "Copy all preserves newline-separated codes",
+      "status": "passed"
+    },
+    {
+      "name": "Clipboard rejection offers selectable manual fallback",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard can reach and activate primary form/copy control",
+      "status": "passed"
+    },
+    {
+      "name": "All retired and random paths return 404 in static export preview",
+      "status": "passed"
+    },
+    {
+      "name": "No uncaught client JavaScript errors",
+      "status": "passed"
+    }
+  ],
+  "passed": true
+}

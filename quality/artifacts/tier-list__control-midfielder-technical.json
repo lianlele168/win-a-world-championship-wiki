@@ -1,0 +1,76 @@
+{
+  "path": "/tier-list/control-midfielder/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:23:01.609Z",
+  "testedUrl": "http://127.0.0.1:64863/tier-list/control-midfielder/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/tier-list/control-midfielder/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__control-midfielder-390.png",
+        "sha256": "013251d9c68292796bd11327f919c1db06e87afc4a36b9dff1a2e5c3b860dc63"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__control-midfielder-768.png",
+        "sha256": "2269d8bfa83272d8b14dee5dfd13f6aa61b25d52efe8a174353ebdb68f20f641"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__control-midfielder-1024.png",
+        "sha256": "7cdec295ff79ac5bd10216b4fc5993b99bb9ae401da56491d261cab277ecdade"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__control-midfielder-1440.png",
+        "sha256": "dd7230bb449991eba6adb4dc44c9797f24ed71c8bb9d6dac391b9947d69530f8"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

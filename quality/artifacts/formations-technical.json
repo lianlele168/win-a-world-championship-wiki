@@ -1,0 +1,76 @@
+{
+  "path": "/formations/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:22:51.800Z",
+  "testedUrl": "http://127.0.0.1:64863/formations/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/formations/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/formations-390.png",
+        "sha256": "272cc9cdd8a389f6cf4c63261415f2edeee53e3a00d847889848408e10d5afa4"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/formations-768.png",
+        "sha256": "cf82ccc05d9d896237db65e8fddf9c61fab4615d2a97bd0d97915069fa1bbfc5"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/formations-1024.png",
+        "sha256": "173963195a1088f18041f1ca7c809ddf4c06fd6bc75699fd19289326d9ebf702"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/formations-1440.png",
+        "sha256": "b808968d2c2f28de7bdccd9bd633ddaf617983e5557e3b90861162fc909abed5"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

@@ -1,0 +1,76 @@
+{
+  "path": "/calculator/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:22:48.783Z",
+  "testedUrl": "http://127.0.0.1:64863/calculator/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/calculator/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/calculator-390.png",
+        "sha256": "d8e640ccbae9e80dd87425518a244af60ea1f35f2fb500f1be1a9c7351f7afe0"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/calculator-768.png",
+        "sha256": "f8d8e6c0d2f5ae0c1d0902bc2eefe2c3709a4a1d63799079cd2b1cb8a3ebacca"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/calculator-1024.png",
+        "sha256": "9093df4150267c1f08dd31ef887e2db7c78109b3b06fc332b232477ffc96b1cb"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/calculator-1440.png",
+        "sha256": "bcaf5d952f26b4bb4cb7819f60a39faf16357a6c49ab7e4cb4a5e3298b24d13f"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

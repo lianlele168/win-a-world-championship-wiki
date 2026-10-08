@@ -1,0 +1,113 @@
+KEEP OR REROLL FRAMEWORK
+Win A World Championship Tier List
+
+This page ranks card roles and squad archetypes based on public mechanics: spin cards, pick the best players, open packs, upgrade a squad, and compete through tournaments.
+
+No reliable public source currently exposes the full hidden player-card stat table. This tier list is intentionally framed as an archetype guide so it does not invent exact player ratings.
+
+S
+S-Tier Card Roles
+
+Sorted by practical reroll priority.
+
+Elite Finisher
+98/100
+
+A high-impact scoring card should be your first keep when your squad already has a stable midfield.
+
+Knockout rounds
+Low-chance games
+Comeback wins
+Full role notes
+Control Midfielder
+95/100
+
+The safest core card type because it improves possession, build-up, and stability across different nations.
+
+Balanced squads
+Long tournaments
+Nation-year synergy
+Full role notes
+A
+A-Tier Card Roles
+
+Sorted by practical reroll priority.
+
+Anchor Defender
+88/100
+
+A reliable center back or defensive anchor is usually worth keeping before chasing luxury attackers.
+
+Close finals
+Underdog squads
+Low coin budgets
+Full role notes
+Pace Winger
+84/100
+
+Wide speed gives cheaper squads a way to steal wins before they can afford perfect central cards.
+
+Fast transitions
+4-3-3
+Breaking low blocks
+Full role notes
+B
+B-Tier Card Roles
+
+Sorted by practical reroll priority.
+
+Sweeper Keeper
+76/100
+
+A strong keeper matters, but goalkeeper upgrades rarely fix a squad with poor chance creation.
+
+Defensive formations
+Finals protection
+High-pressure games
+Full role notes
+Utility Fullback
+70/100
+
+Useful for filling nation/year links, but usually not the card type that wins tournaments alone.
+
+Budget squads
+Formation flexibility
+Chemistry filler
+Full role notes
+C
+C-Tier Card Roles
+
+Sorted by practical reroll priority.
+
+Single-Stat Specialist
+55/100
+
+Playable when you are new, but it should become reroll fuel once codes give you enough resources.
+
+Early tutorial
+Temporary upgrades
+Cheap nation links
+Full role notes
+D
+D-Tier Card Roles
+
+Sorted by practical reroll priority.
+
+Duplicate Filler
+35/100
+
+Duplicates or low-fit cards should be the first cards you rotate out during a serious tournament push.
+
+Temporary bench depth
+Full role notes
+Calculate reroll reserve
+
+Use the calculator before replacing B-tier cards.
+
+Build a best team
+
+Turn tier roles into an actual squad structure.
+
+Avoid reroll traps
+
+Know when to keep a good-enough player.

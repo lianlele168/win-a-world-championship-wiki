@@ -1,0 +1,188 @@
+{
+  "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+  "reviewer": "Codex agent — Roblox repair subtask",
+  "scope": "Five routes at all four widths visually inspected; initial home padding defect fixed and recaptured.",
+  "observations": [
+    {
+      "route": "/",
+      "width": 390,
+      "artifact": {
+        "path": "quality/artifacts/home-390.png",
+        "sha256": "8859c2b742c60d37f673a25e65ce389b8e8c08c3f87735ed8fa025f4d6f1c784"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "artifact": {
+        "path": "quality/artifacts/home-768.png",
+        "sha256": "abe20383f6a560a5c5b38d9fc36716a2f6988b46b790b030bbf1bc4a4f33f64a"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "artifact": {
+        "path": "quality/artifacts/home-1024.png",
+        "sha256": "782d2cc8ae251107d14d93ea970de19795cc78aeb423c16895227d830a572884"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "artifact": {
+        "path": "quality/artifacts/home-1440.png",
+        "sha256": "113cfe4babf3c6ec7979cf26b431e3848f9a1adc81e00e01885389e18c46255a"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "artifact": {
+        "path": "quality/artifacts/about-390.png",
+        "sha256": "682fd31cce7574ea3b93fe7e8dfe7fbd2abc3c103035c9bcc606d49f6849e500"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "artifact": {
+        "path": "quality/artifacts/about-768.png",
+        "sha256": "af9b9cedf8b2faa971cd5050a1e49eb193bfc69cbea3f3d553ebdcd44ba2b2fb"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/about/",
+      "width": 1024,
+      "artifact": {
+        "path": "quality/artifacts/about-1024.png",
+        "sha256": "58fe46927d41851e4c66716268b9960fd2bdb72e04f838fa29da4ea35adb960a"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "artifact": {
+        "path": "quality/artifacts/about-1440.png",
+        "sha256": "56ec064a70022f7ec3be18d5b3ca7fa3290175778fb88524b690308c7698e990"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/codes/",
+      "width": 390,
+      "artifact": {
+        "path": "quality/artifacts/codes-390.png",
+        "sha256": "605e22ad432bf69154a84ddca167de1871e30faf55d1ddf2d9fe221e0bbd7e2a"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/codes/",
+      "width": 768,
+      "artifact": {
+        "path": "quality/artifacts/codes-768.png",
+        "sha256": "86505dd7205671cce81906e4a7999359dfad3639472c3596ef91669e1ebbc77f"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/codes/",
+      "width": 1024,
+      "artifact": {
+        "path": "quality/artifacts/codes-1024.png",
+        "sha256": "89adf3fd40733ac1dfd52418b804a74cbc9b7e31db60a4f110451d1e8ae93398"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/codes/",
+      "width": 1440,
+      "artifact": {
+        "path": "quality/artifacts/codes-1440.png",
+        "sha256": "e2bc341a60edad272eec28a801135910818c470ce6326249170144df4d46397c"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 390,
+      "artifact": {
+        "path": "quality/artifacts/privacy-policy-390.png",
+        "sha256": "e9f3ce442990ca3ea893e0098a249389107da6fabe748bbeb2b527d0e20ff187"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 768,
+      "artifact": {
+        "path": "quality/artifacts/privacy-policy-768.png",
+        "sha256": "1afc187ad715b82dde075d08453c31f326e5eeb9c09c317b05f1dbc650b764f2"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1024,
+      "artifact": {
+        "path": "quality/artifacts/privacy-policy-1024.png",
+        "sha256": "45389f7da6b940090e12774def12fe136e7919b2e5ad99d8292e9db7b85bc5d9"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1440,
+      "artifact": {
+        "path": "quality/artifacts/privacy-policy-1440.png",
+        "sha256": "8e3388d01bc4e5016312bfd4c0e8f783701393ad6350ab599a9a1438fe31a88f"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/terms/",
+      "width": 390,
+      "artifact": {
+        "path": "quality/artifacts/terms-390.png",
+        "sha256": "c7035423ba34c735b294e862ebaf2f466a0ce0900cc37439d18bc5acb4a01d86"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/terms/",
+      "width": 768,
+      "artifact": {
+        "path": "quality/artifacts/terms-768.png",
+        "sha256": "7f95721567b6e58f6e355900d91e414a97cb3758d37852f9b66f9a110a724147"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/terms/",
+      "width": 1024,
+      "artifact": {
+        "path": "quality/artifacts/terms-1024.png",
+        "sha256": "71a9ce7169d0065d4a94e2d3789cfa2ece1f558f1924a3965a0868cc4efb3828"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    },
+    {
+      "route": "/terms/",
+      "width": 1440,
+      "artifact": {
+        "path": "quality/artifacts/terms-1440.png",
+        "sha256": "ef43377fb587e4899f2104ffa5d9789c7c2685bca1b1c4c2c07c6d9014dc9a0e"
+      },
+      "result": "Legible text/controls; no clipped labels, overlap or horizontal overflow. Mobile/wider layouts inspected."
+    }
+  ],
+  "extraFilledNotebookImagesReviewed": []
+}

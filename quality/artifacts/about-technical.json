@@ -1,0 +1,78 @@
+{
+  "path": "/about/",
+  "codeFingerprint": "175941e95e52e9fb5cb68c7e476e5d2bbb78c1c5c607b44b590564200c7575a4",
+  "checkedAt": "2026-10-08T16:02:19.320Z",
+  "testedUrl": "http://127.0.0.1:49680/about/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/about/",
+  "robotsAllowed": true,
+  "indexAllowed": false,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/about-390.png",
+        "sha256": "682fd31cce7574ea3b93fe7e8dfe7fbd2abc3c103035c9bcc606d49f6849e500"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/about-768.png",
+        "sha256": "af9b9cedf8b2faa971cd5050a1e49eb193bfc69cbea3f3d553ebdcd44ba2b2fb"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/about-1024.png",
+        "sha256": "58fe46927d41851e4c66716268b9960fd2bdb72e04f838fa29da4ea35adb960a"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/about-1440.png",
+        "sha256": "56ec064a70022f7ec3be18d5b3ca7fa3290175778fb88524b690308c7698e990"
+      }
+    }
+  ],
+  "interaction": "not-applicable",
+  "contentReview": "completed in quality/content-review.md",
+  "note": "Actual local production-export capture plus subsequent visual/content review. Does not certify deployment or indexing.",
+  "visualReviewer": "Codex agent — all four saved screenshots actually inspected",
+  "visualReviewedAt": "2026-10-08T16:09:06.406970+00:00",
+  "interactionReason": "Static information/standard links; no page-specific widget. Collector requested all internal href destinations.",
+  "externalLinkReview": "Only external HTTP destination is official Roblox page, captured HTTP 200 in sources/roblox-current-capture.json. mailto retained; no email sent."
+}

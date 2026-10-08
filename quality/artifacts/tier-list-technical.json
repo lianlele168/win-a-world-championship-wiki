@@ -1,0 +1,76 @@
+{
+  "path": "/tier-list/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:22:58.952Z",
+  "testedUrl": "http://127.0.0.1:64863/tier-list/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/tier-list/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list-390.png",
+        "sha256": "dd2491a6c47bef425462ece2cf64ec51f6b0ab8c6c460723c3b7e32895cf533d"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list-768.png",
+        "sha256": "953ef0672719c8f6de422b071c6d1b444da65a55ce41fe1012a9c4d19d7dd7b9"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list-1024.png",
+        "sha256": "dce8c7af2fdfc0378dae1433173ac2e68d20e0af60263a1f0f271eb68fa49fad"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list-1440.png",
+        "sha256": "c9a40ff3c6871fffd59abc5495d8c3d6fc8717291339b5e078b6a67291364ab8"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

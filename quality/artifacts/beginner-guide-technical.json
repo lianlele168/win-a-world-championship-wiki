@@ -1,0 +1,76 @@
+{
+  "path": "/beginner-guide/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:22:45.702Z",
+  "testedUrl": "http://127.0.0.1:64863/beginner-guide/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/beginner-guide/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/beginner-guide-390.png",
+        "sha256": "ae93d335bf09c6f5c79b88ab73cd1b5dc4f3cf54270b65dd6b59971bbd9745d0"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/beginner-guide-768.png",
+        "sha256": "9bd2944dc1f189539b002c6c44870757feb5c37c60eac74121682b834bf226df"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/beginner-guide-1024.png",
+        "sha256": "994ea9863fa5e72fce66de4ee3dba86547b974b30e38d1153e007ac640aaa137"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/beginner-guide-1440.png",
+        "sha256": "98a2bc0827ebd0c293336af0c0b0113fb8d762fa27ee1357c6731011853b290e"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

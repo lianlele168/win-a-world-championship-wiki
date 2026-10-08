@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "codeFingerprint": "175941e95e52e9fb5cb68c7e476e5d2bbb78c1c5c607b44b590564200c7575a4",
+  "site": {
+    "baseUrl": "https://winaworldchampionship.robloxwikihub.com/",
+    "officialUrl": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
+    "platform": "roblox",
+    "releaseStatus": "released",
+    "placeId": "117180001724009",
+    "identitySourceId": "official-page",
+    "identityReview": {
+      "status": "supported",
+      "reviewer": "Codex agent — Roblox repair subtask",
+      "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+      "artifact": {
+        "path": "quality/artifacts/identity-review.md",
+        "sha256": "ce56a2bd669e743435eeb0afacc77c3e4055661bc69e6c813be61f6f6cadf2b5"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "official-page",
+      "kind": "official",
+      "url": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
+      "checkedAt": "2026-10-08T15:56:24.947378+00:00",
+      "artifact": {
+        "path": "quality/artifacts/sources/roblox-current.html",
+        "sha256": "0cc5139fd54b9eb88d3f5a19b404e86e15597ee57ca7619854d17a0be27648c5"
+      }
+    },
+    {
+      "id": "official-api",
+      "kind": "official",
+      "url": "https://games.roblox.com/v1/games?universeIds=10435170241",
+      "checkedAt": "2026-10-08T15:56:25.870784+00:00",
+      "artifact": {
+        "path": "quality/artifacts/sources/roblox-api-current.json",
+        "sha256": "dc11f819c0f0dfd3fa2856ab2e280e87c7a0d109f7f5a53bfd6f5251fd125b40"
+      }
+    },
+    {
+      "id": "capture-time",
+      "kind": "observation",
+      "url": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
+      "checkedAt": "2026-10-08T15:56:25.870784+00:00",
+      "artifact": {
+        "path": "quality/artifacts/sources/roblox-api-current-capture.json",
+        "sha256": "124d4d52681cb9f5df7d30d5a0298cf0a34efa242684f7c26a476a119caae0c4"
+      }
+    },
+    {
+      "id": "app-review",
+      "kind": "observation",
+      "url": "https://winaworldchampionship.robloxwikihub.com/about/",
+      "checkedAt": "2026-10-08T16:09:06.406970+00:00",
+      "artifact": {
+        "path": "quality/artifacts/implementation-review.md",
+        "sha256": "9597b558891cdb8687244a13d30d9b436f2682174e443883aa07c54a62cae690"
+      }
+    },
+    {
+      "id": "interaction-review",
+      "kind": "observation",
+      "url": "https://winaworldchampionship.robloxwikihub.com/codes/",
+      "checkedAt": "2026-10-08T16:02:08.051Z",
+      "artifact": {
+        "path": "quality/artifacts/interaction-review.json",
+        "sha256": "e60ba2556da05b64ea65041454f46420e6a7109923485a7a5fd197da1ad1d29e"
+      }
+    },
+    {
+      "id": "retirement-review",
+      "kind": "observation",
+      "url": "https://winaworldchampionship.robloxwikihub.com/about/",
+      "checkedAt": "2026-10-08T16:09:06.406970+00:00",
+      "artifact": {
+        "path": "quality/artifacts/retirement-review.json",
+        "sha256": "19c4aef0bf5aa715513680d7781de4e43b06eb0c1084b6c1d2750e248eb4708e"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "game-identity",
+      "kind": "fact",
+      "statement": "Win A World Championship is a Roblox game by Black Barn Studios.",
+      "sourceIds": [
+        "official-page",
+        "official-api"
+      ],
+      "support": "Official heading/By line; API data[0].name and creator.name.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "place-id",
+      "kind": "number",
+      "statement": "Official place ID is 117180001724009.",
+      "sourceIds": [
+        "official-page",
+        "official-api"
+      ],
+      "support": "Official URL matches data[0].rootPlaceId; not confused with universe ID.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "source-date",
+      "kind": "date",
+      "statement": "The official source was read on 2026-10-08 (UTC capture date).",
+      "sourceIds": [
+        "capture-time"
+      ],
+      "support": "Actual checkedAt, not game publication or automatic freshness.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "publisher",
+      "kind": "fact",
+      "statement": "Independent companion published under Hlele; correction contact is lianlele168@gmail.com.",
+      "sourceIds": [
+        "app-review"
+      ],
+      "support": "User identity instruction and previous repository contact, documented in implementation review. No sponsorship/human testing inferred.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "source-review-scope",
+      "kind": "verification",
+      "statement": "Codex compared official source with this edition; no Hlele gameplay or redemption claim.",
+      "sourceIds": [
+        "app-review"
+      ],
+      "support": "Executed read-through and captured official/browser artifacts; described precisely in implementation-review.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "application-privacy",
+      "kind": "fact",
+      "statement": "App has no account connection, sign-in, ad or analytics script; external destinations are separate.",
+      "sourceIds": [
+        "app-review"
+      ],
+      "support": "Inspection of current application files. Hosting requests remain disclosed; no claim about opaque infrastructure/legal compliance.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "retired-content",
+      "kind": "fact",
+      "statement": "Earlier unsupported rankings, numerical models and guides were removed.",
+      "sourceIds": [
+        "retirement-review"
+      ],
+      "support": "Former archive, replacement routes and local HTTP404 tests.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "football-loop",
+      "kind": "fact",
+      "statement": "Description lists nation/year selection, card spins, packs, upgrades and tournaments.",
+      "sourceIds": [
+        "official-api",
+        "official-page"
+      ],
+      "support": "Gameplay bullet list; no support inferred for old cards/scores/optimal strategy.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "console-select",
+      "kind": "fact",
+      "statement": "Developer says SELECT toggles console moving and selecting.",
+      "sourceIds": [
+        "official-api"
+      ],
+      "support": "Final description sentence; developer statement, not controller testing.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "listed-codes",
+      "kind": "fact",
+      "statement": "Description lists WORLDHUNT, MANAGERS, VISIT10M, LIKES10K, MEMBERS200K and INDEX.",
+      "sourceIds": [
+        "official-api",
+        "official-page"
+      ],
+      "support": "Exact CODES lines; test compares six rendered strings. No redemption/reward/active guarantee.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "source-limits",
+      "kind": "fact",
+      "statement": "Reviewed description supplies no redemption menu steps, rewards, expiry, player ratings, pack odds or formation multipliers.",
+      "sourceIds": [
+        "official-api"
+      ],
+      "support": "Entire description read; those details explicitly unknown, no inference of expiry.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "codes-removed",
+      "kind": "fact",
+      "statement": "DAILY, VISIT5M and CCU5K absent from captured description and removed from companion list.",
+      "sourceIds": [
+        "official-api",
+        "retirement-review"
+      ],
+      "support": "Current CODES block compared to archived codes.json/page; absence not evidence of expiry.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    },
+    {
+      "id": "copy-functionality",
+      "kind": "fact",
+      "statement": "Copy writes selected/all public codes; denial gives manual fallback. App neither redeems nor reads account/clipboard data.",
+      "sourceIds": [
+        "app-review",
+        "interaction-review"
+      ],
+      "support": "CodeList source plus success/denial tests; test-harness reads are not app behavior.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": "ready",
+      "intent": "Find official game and supported features",
+      "uniqueValue": "Specific official identity/source boundary and direct entry to useful companion utility.",
+      "indexable": true,
+      "claimIds": [
+        "publisher",
+        "game-identity",
+        "place-id",
+        "source-date",
+        "source-limits",
+        "football-loop",
+        "console-select",
+        "copy-functionality"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/home.html",
+        "sha256": "65a623fd2d3be81467026c6bca0f532be80d86ccd76e76f75a671f25f0a1c725"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/home-technical.json",
+        "sha256": "ac90ff5212a1ac55483b2421ec4ff023ee4618f48a9cc1a80284376340a02b99"
+      }
+    },
+    {
+      "path": "/about/",
+      "status": "ready",
+      "intent": "Check publisher and review scope",
+      "uniqueValue": "Actual source-review limits and correction contact, no fake human endorsement.",
+      "indexable": false,
+      "claimIds": [
+        "publisher",
+        "game-identity",
+        "source-review-scope",
+        "retired-content"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/about.html",
+        "sha256": "8eb61104e4edf89a91ec174de40685a67c2764b84f6b58c820c90d157d948269"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/about-technical.json",
+        "sha256": "374bf8d982875e3434d42d6c392828576c3b464e89f214acb4e7c703e6ba58ac"
+      }
+    },
+    {
+      "path": "/codes/",
+      "status": "ready",
+      "intent": "Copy publisher-listed strings",
+      "uniqueValue": "Exact source-linked codes with working copy, check date and redemption uncertainty.",
+      "indexable": true,
+      "claimIds": [
+        "publisher",
+        "game-identity",
+        "source-date",
+        "listed-codes",
+        "source-limits",
+        "codes-removed",
+        "copy-functionality"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/codes.html",
+        "sha256": "442f8c2e18d0d3525c6751b83eb0720b1e559ccb1a0c34e7b21be5df6f0582e0"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/codes-technical.json",
+        "sha256": "9dce1e3decb8792dbc2b281730bb3016d30283463fc8eccabd8703a945e27a7e"
+      }
+    },
+    {
+      "path": "/privacy-policy/",
+      "status": "ready",
+      "intent": "Understand application data handling",
+      "uniqueValue": "Specific clipboard behavior; no legal compliance assertion.",
+      "indexable": false,
+      "claimIds": [
+        "publisher",
+        "game-identity",
+        "application-privacy",
+        "copy-functionality"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/privacy-policy.html",
+        "sha256": "1c7b5b6440df8766e924636ffa61d7d021f27e47d94aa5ead78e2770b666317e"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/privacy-policy-technical.json",
+        "sha256": "d0689ddf10c185649f85eabc017f688fe08c1c14405a812a5a87d80d5fc0eb64"
+      }
+    },
+    {
+      "path": "/terms/",
+      "status": "ready",
+      "intent": "Understand companion scope",
+      "uniqueValue": "Independent informational use and contact; no game outcome promise.",
+      "indexable": false,
+      "claimIds": [
+        "publisher",
+        "game-identity",
+        "application-privacy"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — Roblox repair subtask",
+        "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "302aaf2dfea29777a53b20a1810e9d644c54a72c28d230c2b1daf6b475871534"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/terms.html",
+        "sha256": "c59153bddbea103389b6a8a55210e566c0fe5c5fd6e89374379c47cdd2f19bc2"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/terms-technical.json",
+        "sha256": "b4b35634842c5510dc9771053966438619dcb3a4964992e78ec1b10c7d162ddd"
+      }
+    }
+  ],
+  "routeInventoryArtifact": {
+    "path": "quality/artifacts/routes.json",
+    "sha256": "ac28c9aa9ff598846703e21620c1d24ed667ff77e743f642b0ce96cceae46e98"
+  },
+  "sitemapPaths": [
+    "/",
+    "/codes/"
+  ],
+  "sitemapArtifact": {
+    "path": "quality/artifacts/sitemap.xml",
+    "sha256": "efed075258af63497a262ea97cb7c2453cae6781ae1a8a54f999de3de6bc6616"
+  },
+  "skillRunArtifact": {
+    "path": "quality/skill-run.md",
+    "sha256": "f79910cae15b6d5a00d6c768d3f8bc88743f5f29b63fdaf4b3dd93f9cc170828"
+  },
+  "buildArtifact": {
+    "path": "quality/artifacts/build.log",
+    "sha256": "c21673e26777248b89f30e2f402e2a92657523fb2bb1d529360c1126fb8045e2"
+  },
+  "buildStatus": "passed",
+  "unresolved": []
+}

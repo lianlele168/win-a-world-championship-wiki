@@ -1,0 +1,76 @@
+{
+  "path": "/tier-list/elite-finisher/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:23:04.020Z",
+  "testedUrl": "http://127.0.0.1:64863/tier-list/elite-finisher/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/tier-list/elite-finisher/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__elite-finisher-390.png",
+        "sha256": "44b0da8ee45b99b3139e744d9a50649b8e214759e5d6a72596f97e21a989d0cf"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__elite-finisher-768.png",
+        "sha256": "74e5cfee9f8b87605e41cdc001f14b7f5508b3d6b35868299cd16d0e09515732"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__elite-finisher-1024.png",
+        "sha256": "2794144f1a7b676354a07a412e2956558855a4b489cc01e922c3c749c0f48951"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__elite-finisher-1440.png",
+        "sha256": "429da8ab657cb668318f7a466fc1c9ff067725ceee3e57b1b316f56e68f32d54"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

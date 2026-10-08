@@ -1,0 +1,76 @@
+{
+  "path": "/tier-list/utility-fullback/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:23:09.085Z",
+  "testedUrl": "http://127.0.0.1:64863/tier-list/utility-fullback/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/tier-list/utility-fullback/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__utility-fullback-390.png",
+        "sha256": "3b031d167bb4ae30764522aac4758aebd9323d40091c931d67cdd8b1a77c9dfc"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__utility-fullback-768.png",
+        "sha256": "6a348d7777376a216731f72afc121650c989460871055ad8997378c4394ee4be"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__utility-fullback-1024.png",
+        "sha256": "9a5203ad5904c21ad6896519179f2dc7b48c001a9c2e741304d172f215165179"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__utility-fullback-1440.png",
+        "sha256": "dde16c488f2d565b497959d8d58f6d40e93bcb624706a77f96eebcf4ba73f9c5"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

@@ -1,0 +1,14 @@
+{
+  "project": "win-a-world-championship-wiki",
+  "id": "roblox-api",
+  "url": "https://games.roblox.com/v1/games?universeIds=10435170241",
+  "checkedAt": "2026-10-08T15:23:20.644Z",
+  "review": "pending",
+  "status": 200,
+  "finalUrl": "https://games.roblox.com/v1/games?universeIds=10435170241",
+  "contentType": "application/json; charset=utf-8",
+  "artifact": {
+    "path": "quality/artifacts/sources/roblox-api.json",
+    "sha256": "ef5335c7bc15d9aee7004a32d4092c2a8ec024c60098789a9e81bb20511c3384"
+  }
+}

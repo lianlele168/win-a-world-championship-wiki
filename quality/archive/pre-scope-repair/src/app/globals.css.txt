@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pitch: #0a5f38;
+  --pitch-dark: #06331f;
+  --gold: #f4c542;
+  --scarlet: #e11d48;
+  --ink: #07111f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(7, 17, 31, 0.96) 0%, rgba(6, 26, 23, 0.94) 48%, rgba(5, 11, 20, 1) 100%),
+    repeating-linear-gradient(90deg, rgba(15, 117, 67, 0.12) 0 72px, rgba(244, 197, 66, 0.04) 72px 74px);
+  color: #f8fafc;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.surface {
+  @apply border border-white/10 bg-slate-950/75 shadow-xl backdrop-blur-md;
+  border-radius: 8px;
+}
+
+.surface-light {
+  @apply border border-emerald-900/20 bg-white text-slate-950 shadow-xl;
+  border-radius: 8px;
+}
+
+.metric-tile {
+  @apply border border-white/10 bg-slate-900/100 px-4 py-3;
+  border-radius: 8px;
+}
+
+.field-tile {
+  @apply border border-emerald-700/25 bg-emerald-950/40;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-amber-400 px-5 py-2.5 text-sm font-extrabold text-slate-950 shadow-lg shadow-amber-950/30 transition hover:bg-amber-300 active:translate-y-px;
+}
+
+.btn-secondary {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-bold text-white transition hover:border-amber-300/100 hover:bg-white/10 active:translate-y-px;
+}
+
+.btn-quiet {
+  @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-slate-700 bg-slate-900 px-4 py-2 text-xs font-bold text-slate-200 transition hover:border-emerald-400/100 hover:text-white;
+}
+
+.badge-active {
+  @apply inline-flex items-center gap-1 rounded-full border border-emerald-400/40 bg-emerald-400/10 px-2.5 py-1 text-[11px] font-bold text-emerald-200;
+}
+
+.badge-check {
+  @apply inline-flex items-center gap-1 rounded-full border border-amber-300/40 bg-amber-300/10 px-2.5 py-1 text-[11px] font-bold text-amber-100;
+}
+
+.badge-expired {
+  @apply inline-flex items-center gap-1 rounded-full border border-slate-600 bg-slate-800 px-2.5 py-1 text-[11px] font-bold text-slate-400;
+}
+
+.tier-s {
+  @apply bg-amber-300 text-slate-950;
+}
+
+.tier-a {
+  @apply bg-emerald-300 text-emerald-950;
+}
+
+.tier-b {
+  @apply bg-sky-300 text-sky-950;
+}
+
+.tier-c {
+  @apply bg-orange-300 text-orange-950;
+}
+
+.tier-d {
+  @apply bg-rose-300 text-rose-950;
+}
+
+.hero-bg {
+  background-image:
+    linear-gradient(90deg, rgba(5, 11, 20, 0.92) 0%, rgba(5, 11, 20, 0.7) 48%, rgba(5, 11, 20, 0.2) 100%),
+    url("/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.table-grid {
+  grid-template-columns: minmax(130px, 1.1fr) minmax(220px, 2fr) minmax(130px, 0.9fr) minmax(110px, 0.7fr);
+}
+
+@media (max-width: 760px) {
+  .table-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07111f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #14532d;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f4c542;
+}

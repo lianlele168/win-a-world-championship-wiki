@@ -1,0 +1,76 @@
+{
+  "path": "/tier-list/sweeper-keeper/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:23:07.724Z",
+  "testedUrl": "http://127.0.0.1:64863/tier-list/sweeper-keeper/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/tier-list/sweeper-keeper/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__sweeper-keeper-390.png",
+        "sha256": "c52718be7a2b948ab795a0f7b69c9f77de11986c749681b71577919f5a073267"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__sweeper-keeper-768.png",
+        "sha256": "e3012dd607b9e892baee25320ab5aa3a2a83362b5731b029778f6ed6f6322f1e"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__sweeper-keeper-1024.png",
+        "sha256": "6faa7ab35e97dfdf53686c5d572c6e205982678442e7ce6525f4355ce84333ac"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/tier-list__sweeper-keeper-1440.png",
+        "sha256": "308bf9e05fa79ac085b46e2a04d53a17dc576594cac086c9675c6886a2d9f219"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "win-a-world-championship-wiki",
+  "gateVersion": 2,
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    "Review source authenticity, claim support, calibration correctness and inventory completeness manually. Self-authored records are not independent proof."
+  ],
+  "checks": {
+    "fingerprint": {
+      "sha256": "175941e95e52e9fb5cb68c7e476e5d2bbb78c1c5c607b44b590564200c7575a4",
+      "files": 31
+    },
+    "pages": 5,
+    "claims": 13,
+    "sources": 6,
+    "artifacts": 22
+  },
+  "limitation": "Checks evidence completeness and recorded results; cannot certify fact truth, actual execution or Google indexing."
+}

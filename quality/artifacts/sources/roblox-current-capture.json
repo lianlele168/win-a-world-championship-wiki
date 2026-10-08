@@ -1,0 +1,11 @@
+{
+  "id": "roblox",
+  "url": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
+  "checkedAt": "2026-10-08T15:56:24.947378+00:00",
+  "status": 200,
+  "finalUrl": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
+  "artifact": {
+    "path": "quality/artifacts/sources/roblox-current.html",
+    "sha256": "0cc5139fd54b9eb88d3f5a19b404e86e15597ee57ca7619854d17a0be27648c5"
+  }
+}

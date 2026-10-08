@@ -1,0 +1,58 @@
+INTERACTIVE PLANNING TOOL
+Win A World Championship Calculator
+
+Plan how far the current code rewards can carry your squad. This calculator handles budget math and weak-line priority, not hidden pack odds.
+
+Resource inputs
+Reset
+Include official-current code rewards
+Adds 55,000 Coins, 30 Team Rerolls, 30 Year Rerolls, and 2 Tokens.
+CURRENT COINS
+PACK COIN COST IN YOUR SERVER
+CURRENT TEAM REROLLS
+CURRENT YEAR REROLLS
+Current squad line ratings
+Attack
+50/100
+Midfield
+50/100
+Defense
+50/100
+Keeper
+50/100
+Reroll risk mode
+Conserve
+Keep a 12-reroll reserve before tournaments.
+Balanced
+Keep a 7-reroll reserve and spend the rest.
+Spend
+Keep only 3 rerolls and chase upgrades now.
+Results
+73/100
+Total Coins
+55,000
+Pack Opens
+22
+Team Rerolls
+30
+Year Rerolls
+30
+Fix attack first
+
+Prioritize an elite finisher or pace winger before spending rerolls on year alignment.
+
+Recommended shape: 4-3-3 or 4-2-3-1
+
+Keep reserve target: 7 rerolls per type.
+
+Spendable Team Rerolls: 23
+
+Spendable Year Rerolls: 23
+
+Remaining Coins after packs: 0
+
+Copy Current Codes
+Compare Card Roles
+Calculator note
+
+Pack prices, rewards, and card pools can change after updates. Use the inputs above for the numbers visible in your server.

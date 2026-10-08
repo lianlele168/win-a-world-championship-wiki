@@ -1,0 +1,81 @@
+{
+  "path": "/updates/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:23:10.393Z",
+  "testedUrl": "http://127.0.0.1:64863/updates/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/updates/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
+    "https://games.roblox.com/v1/games?universeIds=10435170241",
+    "https://www.rolimons.com/game/117180001724009",
+    "https://beebom.com/win-a-world-championship-codes/",
+    "https://www.pockettactics.com/win-a-world-championship-codes",
+    "https://www.destructoid.com/win-a-world-championship-codes/"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/updates-390.png",
+        "sha256": "4084a3b716865b6fca6020b70ac5450d20cc9b1dbb018081d01c6a1a29c2b47c"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/updates-768.png",
+        "sha256": "424fd484a8f37acb002a31a7ec6e929a93dfd6c90bcbc1540fe2856f21dc97f6"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/updates-1024.png",
+        "sha256": "7a2a223b716db7a8a02113d76dae47fd5cd5c49cc5d62c385ed242c2c51a45c4"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/updates-1440.png",
+        "sha256": "4ce49bb999af779f5d7585e2c9fbdb6c50889eb69156cafe60751124959c5833"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

@@ -1,0 +1,14 @@
+{
+  "project": "win-a-world-championship-wiki",
+  "id": "roblox",
+  "url": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
+  "checkedAt": "2026-10-08T15:23:20.643Z",
+  "review": "pending",
+  "status": 200,
+  "finalUrl": "https://www.roblox.com/games/117180001724009/Win-A-World-Championship",
+  "contentType": "text/html; charset=utf-8",
+  "artifact": {
+    "path": "quality/artifacts/sources/roblox.html",
+    "sha256": "504a28d149ae4d3a6d5db6b34b7540fdfe08739dccd1f7e73f19854587633dd8"
+  }
+}

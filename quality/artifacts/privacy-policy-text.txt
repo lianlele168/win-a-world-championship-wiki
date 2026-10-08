@@ -1,0 +1,13 @@
+HOME / COMPANION
+
+Privacy
+
+This companion does not include a sign-in form, account connection, advertising script or analytics script in its application code. Loading a page still sends normal web requests to the hosting provider.
+
+Copy buttons
+
+Clicking Copy asks the browser to write the selected public code text to your clipboard. This tool does not read your clipboard or save code history. When copying is blocked, the code text remains available for manual selection.
+
+External links
+
+Opening Roblox or an email application leaves this site. Their data practices are separate. Contact lianlele168@gmail.com with questions about this companion.

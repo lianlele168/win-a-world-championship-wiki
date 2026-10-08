@@ -1,0 +1,81 @@
+{
+  "path": "/codes/",
+  "codeFingerprint": "175941e95e52e9fb5cb68c7e476e5d2bbb78c1c5c607b44b590564200c7575a4",
+  "checkedAt": "2026-10-08T16:02:20.290Z",
+  "testedUrl": "http://127.0.0.1:49680/codes/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/codes/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/codes-390.png",
+        "sha256": "605e22ad432bf69154a84ddca167de1871e30faf55d1ddf2d9fe221e0bbd7e2a"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/codes-768.png",
+        "sha256": "86505dd7205671cce81906e4a7999359dfad3639472c3596ef91669e1ebbc77f"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/codes-1024.png",
+        "sha256": "89adf3fd40733ac1dfd52418b804a74cbc9b7e31db60a4f110451d1e8ae93398"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/codes-1440.png",
+        "sha256": "e2bc341a60edad272eec28a801135910818c470ce6326249170144df4d46397c"
+      }
+    }
+  ],
+  "interaction": "passed",
+  "contentReview": "completed in quality/content-review.md",
+  "note": "Actual local production-export capture plus subsequent visual/content review. Does not certify deployment or indexing.",
+  "visualReviewer": "Codex agent — all four saved screenshots actually inspected",
+  "visualReviewedAt": "2026-10-08T16:09:06.406970+00:00",
+  "interactionArtifact": {
+    "path": "quality/artifacts/interaction-review.json",
+    "sha256": "e60ba2556da05b64ea65041454f46420e6a7109923485a7a5fd197da1ad1d29e"
+  },
+  "externalLinkReview": "Only external HTTP destination is official Roblox page, captured HTTP 200 in sources/roblox-current-capture.json. mailto retained; no email sent."
+}

@@ -1,0 +1,32 @@
+SOURCE LOG
+Win A World Championship Updates
+
+This page records what was used to build the wiki: current Roblox API fields, the live game description, and public code sources, re-checked regularly.
+
+PLAYING
+1.9K+
+VISITS
+6.34M+
+FAVORITES
+25.6K+
+RATING
+88%
+Official-current
+
+6 codes listed in the live Roblox description.
+
+Needs-check
+
+5 older codes with media-source conflicts.
+
+Reported expired
+
+4 historical codes tracked for search and troubleshooting.
+
+Sources used
+Roblox API
+Rolimon's game tracker
+Beebom codes page
+Pocket Tactics codes page
+Destructoid codes page
+Review code table

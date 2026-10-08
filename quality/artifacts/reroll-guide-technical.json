@@ -1,0 +1,76 @@
+{
+  "path": "/reroll-guide/",
+  "codeFingerprint": "fd66dd010afc024d9f8975dac7937f87db956793c49bda8d93b1293bb1c40327",
+  "checkedAt": "2026-10-08T15:22:55.931Z",
+  "testedUrl": "http://127.0.0.1:64863/reroll-guide/",
+  "httpStatus": 200,
+  "canonical": "https://winaworldchampionship.robloxwikihub.com/reroll-guide/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://www.roblox.com/games/117180001724009/Win-A-World-Championship"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/reroll-guide-390.png",
+        "sha256": "16b2f91450bb479d276868a1cf235bafecaeb541ffcca06b73b8f039209d9bad"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/reroll-guide-768.png",
+        "sha256": "06f6a82db3876f1805d541662f05fc1f7421e5f38145af2cd196d52aa8ca6f1c"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/reroll-guide-1024.png",
+        "sha256": "d81a7c2c08ec82e4e92368c1c7d8cfbb38e55327d2d75306de0f42c99911de64"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/reroll-guide-1440.png",
+        "sha256": "4f2a6c10c2face4ae2743dadabf0b14bd11cc37f5137e687e3f686ab9e9b58e7"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

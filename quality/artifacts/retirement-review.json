@@ -1,0 +1,38 @@
+{
+  "reviewedAt": "2026-10-08T16:09:06.406970+00:00",
+  "reviewer": "Codex agent — Roblox repair subtask",
+  "retiredPaths": [
+    "/beginner-guide/",
+    "/best-team/",
+    "/calculator/",
+    "/formations/",
+    "/packs-guide/",
+    "/reroll-guide/",
+    "/tier-list/",
+    "/tier-list/anchor-defender/",
+    "/tier-list/control-midfielder/",
+    "/tier-list/duplicate-filler/",
+    "/tier-list/elite-finisher/",
+    "/tier-list/pace-winger/",
+    "/tier-list/single-stat-specialist/",
+    "/tier-list/sweeper-keeper/",
+    "/tier-list/utility-fullback/",
+    "/updates/"
+  ],
+  "replacementRoutes": [
+    "/",
+    "/about/",
+    "/codes/",
+    "/privacy-policy/",
+    "/terms/"
+  ],
+  "reason": "Unsupported ratings, formulas, precise rewards and duplicated guidance removed. No unrelated-home redirects. Actual local static-export HTTP 404 checked; production host needs post-deployment recheck.",
+  "sourceArchiveManifest": {
+    "path": "quality/archive/pre-scope-repair/manifest.json",
+    "sha256": "bde15591605cdf8c974bae3d72e9451d366a881344fe5155e8898d108807d98d"
+  },
+  "interactionEvidence": {
+    "path": "quality/artifacts/interaction-review.json",
+    "sha256": "e60ba2556da05b64ea65041454f46420e6a7109923485a7a5fd197da1ad1d29e"
+  }
+}
